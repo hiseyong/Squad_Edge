@@ -1,5 +1,5 @@
 import { useEffect, useState, type ComponentType } from 'react'
-import { api, type DemoMode, type ModeStatus } from '../api'
+import { api, IS_MOCKUP, type DemoMode, type ModeStatus } from '../api'
 import { useCop } from '../store'
 import { bytes, dtg } from '../lib/format'
 import { effectiveStatus } from '../lib/unitDisplay'
@@ -97,6 +97,11 @@ export default function TopBar() {
             Common Operating Picture
           </div>
         </div>
+        {IS_MOCKUP && (
+          <span className="prisma-chip prisma-chip-on !border-prisma-warn/50 !text-prisma-warn" title="백엔드 없음 · 로컬 시드">
+            UI MOCKUP
+          </span>
+        )}
       </div>
 
       <div className="flex items-center gap-3 border-r border-prisma-border px-3">

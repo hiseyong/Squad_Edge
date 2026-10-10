@@ -1,0 +1,5 @@
+유효 299줄 (오류 1): 학습 211(+STT 흉내 사본) / 검증 29 / 평가 59
+어려운 경우: {'judgment': 40, None: 148, 'negation': 44, 'paraphrase': 30, 'tense': 14, 'enemy_vs_own': 18, 'stt_error': 5}
+코드 분포: {'HOLD': 40, 'WAIT': 33, 'MOVING': 28, 'APPROACH': 19, 'FIRING': 19, 'GUIDANCE': 17, 'CEASE_FIRE': 17, 'WITHDRAW': 17, 'HALTED': 16, 'MEDEVAC': 16, 'FLANK_RIGHT': 14, 'AMBUSH': 13, 'FIRE_CONTROL': 13, 'RESUPPLY': 13, 'TAKE_COVER': 12, 'OBSERVING': 12, 'OBSERVE': 12, 'DIG_IN': 11, 'FLANK_LEFT': 10, 'MOVE': 9, 'ILLUM': 4, 'FIRE_SUPPORT': 4, 'REINFORCE': 4, 'ENGAGED': 2, 'OPEN_FIRE': 2}
+오류:
+75: 모르는 코드 ['TAKE_COVER']

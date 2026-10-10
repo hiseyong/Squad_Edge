@@ -7,7 +7,11 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "mockup": "vite --config vite.config.mockup.ts",
+    "build:mockup": "tsc -b && vite build --config vite.config.mockup.ts",
+    "preview:mockup": "vite preview --config vite.config.mockup.ts",
+    "deploy:mockup": "npm run build:mockup && wrangler pages deploy dist-mockup --project-name=squad-edge-cop"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

@@ -1,0 +1,11 @@
+bleak==3.0.2   # 병사 링크: 비공개 API(_acquire_mtu, _backend._bus) 사용 → 버전 고정
+audioop-lts
+numpy
+scipy
+soundfile
+sherpa-onnx
+# STT 기본: 스트리밍 Zipformer (models/zipformer-ko, Hugging Face kangkyu/icefall-asr-ko-streaming-zipformer-174m 의 chunk-32 int8)
+# STT 예비: whisper.cpp — third_party/whisper.cpp 에서 cmake 빌드
+cmake
+# 개발용: m4a 등 녹음 파일 디코딩 (런타임 불필요)
+av

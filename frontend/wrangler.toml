@@ -1,0 +1,6 @@
+# Cloudflare Pages — UI Mockup (백엔드 없음)
+#   npx wrangler pages deploy dist-mockup --project-name=squad-edge-cop
+#   또는 Git 연동: Root = frontend, Build = npm run build:mockup, Output = dist-mockup
+name = "squad-edge-cop"
+compatibility_date = "2025-10-01"
+pages_build_output_dir = "dist-mockup"

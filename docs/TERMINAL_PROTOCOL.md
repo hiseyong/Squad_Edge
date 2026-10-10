@@ -589,24 +589,23 @@ BLE 레거시 광고 패킷은 31 B 제한이 있으므로, 고빈도 메시지�
 | 경로 | 형식 | 예 |
 |---|---|---|
 | **Router WS** (realtime) | `ws://<COP>:8000/ws/router` 양방향 | 분대장 단말기: 상향 NDJSON + 하향 명령 (주기 1 s) |
-| **Q3 SoftAP TCP** (분대장1) | 보드 AP `192.168.4.1:9000` NDJSON 양방향 | 노트북이 AP 조인 후 `COP_Q3=1` 로 connect (`leader-q3/`) |
+| **Q3 SoftAP TCP** (분대장1) | 보드 AP `192.168.4.1:9000` NDJSON 양방향 | 노트북이 AP 조인 후 `COP_Q3=1` (`squad-leader/`) |
 | Serial (UNO Q → 노트북) | NDJSON, 115200 bps | `{"type":"unit.relpos","data":{...},"bytes":12}\n` |
 | UDP | 포트 5005, 한 줄에 JSON 하나 | `nc -u 192.168.4.1 5005` |
 | HTTP | `POST /api/ingest`, 단일 또는 배열 | `curl -d @ev.json` |
 
-**분대장1 SoftAP + BLE 경로** (`leader-q3/`):
-- 보드(Linux)가 SoftAP(`SquadEdge-1-1`) + TCP `:9000` 서버
-- 동일 보드 BLE Central → NU40-DK(`SQ1-S*`) NUS: `POS_TABLE` 측위, `CMD_BUTTON` 명령, `PEER_REPORT` 중계 (`soldier-node` 프로토콜)
-- 상향: `unit.relpos`(BLE MDS/프리셋), 병사 보고→`report.new`/`alert.new` (`unit.position`·`link.update`는 COP가 무시 — mock)
-- draft-1: `report.new` type `SPOTREP+SITREP`, priority `flash`(→urgent), `text`→`raw_text`, fields에 `friendly`/`enemy`/`action`/`requests`
-- 하향: COP `order.new` → BLE `CMD_BUTTON` 매핑 후 병사 Write
-- COP: `COP_MODE=realtime ./run.sh` (기본 `COP_Q3=1`, 호스트 `192.168.4.1:9000`)
+**분대장1 SoftAP + BLE 경로** (`squad-leader/`):
+- 보드 SoftAP(`SquadEdge-1-1`) + TCP `:9000` — `squad/link/cop.py`, 진입점 `tools/leader_app.py` / `tools/cop_link.py`
+- BLE Central → NU40(`SQ1-S*`) — `squad/soldier/` (`soldier-node` 프로토콜과 동일)
+- 상향: `unit.relpos`, `report.new`(양식·`BATTLE_DATA` 등). `unit.position`·`link.update`는 COP mock이 담당해 HW분은 무시
+- 하향: COP `order.new` → **분대장만** (`recipients`=`1-1`). 분대원 BLE 자동 하달 없음(분대장이 필요 시 키패드/음성으로 중계)
+- COP: `COP_MODE=realtime ./run.sh` (기본 `COP_Q3=1`, `192.168.4.1:9000`)
 
 **Realtime 시연 모드** (`COP_MODE=realtime` 또는 TopBar `REALTIME`):
-- **Mock GPS**: 1분대장(`1-1`) — COP가 타 분대와 동일하게 위치·메시 링크 합성
-- **HW**: 1분대원(`1-2`~`1-4`) — `unit.relpos`(ref=`1-1`) **이상적 1초** 주기
-- **미수신/미연결**: 분대원만 **통신 두절** → 지도·대형 비표시 (1-1은 mock 유지)
-- **Mock 위치**: HQ·2·3분대 (적·차량·센서 시나리오 연출 없음)
+- **Mock GPS**: 1분대장(`1-1`) — SoftAP 연결 중에만 COP가 위치·메시 합성
+- **HW**: 1분대원(`1-2`~`1-4`) — `unit.relpos`(ref=`1-1`)
+- **용어**: SoftAP 단절=1분대 **통신두절** · 연결 중 무좌표=**측위대기**
+- **Mock 위치**: HQ·2·3분대 (시나리오 이벤트 mock 없음)
 - 로컬 시연: `python3 tools/router_mock.py` (분대원 relpos만)
 
 게이트웨이는 다음을 처리한다.

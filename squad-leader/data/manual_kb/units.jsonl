@@ -1,0 +1,866 @@
+{"id": "그림3-33#1", "para_id": "그림3-33", "type": "REFERENCE", "text": "그림 3-33. 동맥 압박(손가락, 엄지 또는 손바닥).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-33"]}
+{"id": "3-39#1", "para_id": "3-39", "type": "FACT", "text": "지혈대는 출혈을 막기 위해 팔이나 다리에 감아 조이는 띠다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-39#2", "para_id": "3-39", "type": "DECISION_RULE", "text": "팔이나 다리가 완전히 절단된 병사는 처음 발견했을 때 출혈이 없을 수도 있지만, 그래도 지혈대를 감아야 한다.", "condition": "팔이나 다리가 완전히 절단된 병사는 처음 발견했을 때", "action": "출혈이 없을 수도 있지만, 그래도 지혈대를 감아야 한다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-39#3", "para_id": "3-39", "type": "FACT", "text": "몸은 처음에 혈관을 수축시키거나 피를 굳혀 출혈을 멈추지만, 혈관이 다시 이완되거나 부상자를 옮기다가 혈전이 떨어지면 다시 출혈이 시작될 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-39#4", "para_id": "3-39", "type": "FACT", "text": "외상성 절단에서 생기는 허벅지·종아리·팔의 주 동맥 출혈이나 여러 동맥의 출혈은 손 압박으로 감당하지 못할 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-39#5", "para_id": "3-39", "type": "DECISION_RULE", "text": "손으로 세게 눌러도 붕대가 피에 흠뻑 젖고 상처에서 계속 출혈이 있으면 지혈대를 감아야 한다.", "condition": "손으로 세게 눌러도 붕대가 피에 흠뻑 젖고 상처에서 계속 출혈이 있으면", "action": "지혈대를 감아야 한다.", "order": 5, "severity": "", "refs": []}
+{"id": "3-39.box1#1", "para_id": "3-39.box1", "type": "WARNING", "text": "지혈대는 팔이나 다리에만, 그리고 부상자가 과다출혈로 사망할 위험이 있을 때만 사용한다.", "condition": "", "action": "", "order": 1, "severity": "danger", "refs": []}
+{"id": "3-39.box2#1", "para_id": "3-39.box2", "type": "WARNING", "text": "기도 확보, 인공호흡, 쇼크 예방, 지혈 등 기본 인명 구조 조치가 필요한 상태가 생기는지 부상자를 계속 관찰한다.", "condition": "", "action": "", "order": 1, "severity": "warning", "refs": []}
+{"id": "3-39.box2#2", "para_id": "3-39.box2", "type": "WARNING", "text": "모든 개방성·관통상은 들어간 곳과 나간 곳을 찾아 그에 맞게 처치한다.", "condition": "", "action": "", "order": 2, "severity": "warning", "refs": []}
+{"id": "3-40#1", "para_id": "3-40", "type": "DECISION_RULE", "text": "압박 드레싱으로 출혈이 멈추지 않거나 팔다리가 잘려 나간 경우가 아니면 지혈대를 쓰지 않는다.", "condition": "압박 드레싱으로 출혈이 멈추지 않거나 팔다리가 잘려 나간 경우", "action": "가 아니면 지혈대를 쓰지 않는다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-40#2", "para_id": "3-40", "type": "DECISION_RULE", "text": "지혈대는 혈관과 신경을 손상시킬 수 있고, 너무 오래 두면 오히려 팔다리를 잃게 할 수도 있다.", "condition": "지혈대는 혈관과 신경을 손상시킬 수 있고, 너무 오래 두면", "action": "오히려 팔다리를 잃게 할 수도 있다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-40#3", "para_id": "3-40", "type": "EXCEPTION", "text": "그렇지만 일단 지혈대를 감았다면 그대로 둔 채 부상자를 가장 가까운 의무시설로 최대한 빨리 옮겨야 한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-40#4", "para_id": "3-40", "type": "PROHIBITION", "text": "한 번 감은 지혈대를 스스로 풀거나 느슨하게 해서는 절대 안 된다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-40#5", "para_id": "3-40", "type": "FACT", "text": "심한 출혈과 쇼크를 일으킬 수 있다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "3.전투용 지혈대(C-A-T)1#1", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "C-A-T는 한 손으로 사용할 수 있게 포장되어 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3.전투용 지혈대(C-A-T)1#2", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "다친 팔다리를 C-A-T 띠의 고리 안으로 넣는다(그림 3-34의 1).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#3", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "출혈 부위가 무릎이나 팔꿈치보다 위라면 출혈 부위에서 2인치(약 5cm) 위에 C-A-T를 위치시킨다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3.전투용 지혈대(C-A-T)1#4", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "띠의 자유단을 단단히 당겨 띠 위에 다시 붙여 확실히 고정한다(그림 3-34의 2).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#5", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "띠를 조임 막대 고정 클립 너머까지 붙이지 않는다(그림 3-34의 3).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#6", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "출혈이 멈출 때까지 조임 막대를 돌린다(그림 3-34의 4).", "condition": "", "action": "", "order": 4, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#7", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "조임 막대를 고정 클립에 끼워 잠근다(그림 3-34의 5).", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#8", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "팔다리가 가늘면 남은 띠를 팔다리와 조임 막대 위로 계속 감는다(그림 3-34의 6).", "condition": "", "action": "", "order": 6, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#9", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "고정 끈을 잡아 단단히 당긴 뒤 고정 클립의 벨크로 면에 붙인다(그림 3-34의 7).", "condition": "", "action": "", "order": 7, "severity": "", "refs": ["그림3-34"]}
+{"id": "3.전투용 지혈대(C-A-T)1#10", "para_id": "3.전투용 지혈대(C-A-T)1", "type": "PROCEDURE", "text": "이제 C-A- T는 후송 준비가 된 상태다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "그림3-34#1", "para_id": "그림3-34", "type": "REFERENCE", "text": "그림 3-34. 띠를 단단히 당긴 모습.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-34"]}
+{"id": "3-40.box1#1", "para_id": "3-40.box1", "type": "WARNING", "text": "팔에 쓰는 한 손 사용법은 다리에서는 충분히 효과적이지 않을 수 있다.", "condition": "", "action": "", "order": 1, "severity": "warning", "refs": []}
+{"id": "3-40.box1#2", "para_id": "3-40.box1", "type": "WARNING", "text": "모든 인원이 두 가지 사용법을 모두 익히고 훈련받도록 한다.", "condition": "", "action": "", "order": 2, "severity": "warning", "refs": []}
+{"id": "3-41#1", "para_id": "3-41", "type": "FACT", "text": "개량형 개인 구급낭(IFAK)으로 팔다리 출혈과 기도 장애에 대해 자가·전우 처치를 할 수 있다(그림 3-35).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-35"]}
+{"id": "3-41#2", "para_id": "3-41", "type": "FACT", "text": "파우치와 내장재는 2종 보급품이며, 소모품은 8종 보급품이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "그림3-35#1", "para_id": "그림3-35", "type": "REFERENCE", "text": "그림 3-35. 개량형 개인 구급낭.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-35"]}
+{"id": "3-42#1", "para_id": "3-42", "type": "DECISION_RULE", "text": "전용 지혈대가 없으면 거즈나 면 붕대, 옷, 삼각건처럼 튼튼하고 잘 휘는 재료로 만들 수 있다.", "condition": "전용 지혈대가 없으면", "action": "거즈나 면 붕대, 옷, 삼각건처럼 튼튼하고 잘 휘는 재료로 만들 수 있다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-42#2", "para_id": "3-42", "type": "FACT", "text": "임시 지혈대는 막대처럼 단단한 물체와 함께 쓴다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-42#3", "para_id": "3-42", "type": "DECISION_RULE", "text": "피부 손상을 줄이려면 임시 지혈대의 폭이 최소 2인치(약 5cm)는 되어야 한다.", "condition": "피부 손상을 줄이려면", "action": "임시 지혈대의 폭이 최소 2인치(약 5cm)는 되어야 한다.", "order": 3, "severity": "", "refs": []}
+{"id": "3-42.box1#1", "para_id": "3-42.box1", "type": "WARNING", "text": "지혈대는 쉽게 식별되고 잘 보여야 한다.", "condition": "", "action": "", "order": 1, "severity": "warning", "refs": []}
+{"id": "3-42.box1#2", "para_id": "3-42.box1", "type": "WARNING", "text": "철사, 신발끈 등 살을 파고들 수 있는 것은 지혈대 띠로 쓰지 않는다.", "condition": "", "action": "", "order": 2, "severity": "warning", "refs": []}
+{"id": "3-43#1", "para_id": "3-43", "type": "FACT", "text": "임시 지혈대는 상처와 몸통 사이, 즉 상처와 심장 사이에서 팔다리를 둘러 감는다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-43#2", "para_id": "3-43", "type": "PROHIBITION", "text": "상처, 골절 부위, 관절 바로 위에는 절대 감지 않는다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-43#3", "para_id": "3-43", "type": "FACT", "text": "가장 효과적인 위치는 위팔, 또는 허벅지의 무릎 위다(그림 3-36).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림3-36"]}
+{"id": "그림3-36#1", "para_id": "그림3-36", "type": "REFERENCE", "text": "그림 3-36. 무릎 위에 감은 지혈대.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-36"]}
+{"id": "3-44#1", "para_id": "3-44", "type": "FACT", "text": "지혈대 밑에는 패드를 충분히 댄다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-44#2", "para_id": "3-44", "type": "DECISION_RULE", "text": "가능하면 소매나 바짓단을 편평하게 편 위에 감아 피부가 집히거나 비틀리지 않게 한다.", "condition": "가능하면", "action": "소매나 바짓단을 편평하게 편 위에 감아 피부가 집히거나 비틀리지 않게 한다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-44#3", "para_id": "3-44", "type": "DECISION_RULE", "text": "지혈대가 충분히 길면 재료를 최대한 편평하게 유지하며 팔다리를 여러 번 감는다.", "condition": "지혈대가 충분히 길면", "action": "재료를 최대한 편평하게 유지하며 팔다리를 여러 번 감는다.", "order": 3, "severity": "", "refs": []}
+{"id": "3-44#4", "para_id": "3-44", "type": "DECISION_RULE", "text": "피부가 손상되면 절단 부위를 덮는 데 필요한 피부를 외과의가 쓰지 못할 수 있다.", "condition": "피부가 손상되면", "action": "절단 부위를 덮는 데 필요한 피부를 외과의가 쓰지 못할 수 있다.", "order": 4, "severity": "", "refs": []}
+{"id": "3-44#5", "para_id": "3-44", "type": "DECISION_RULE", "text": "피부를 보호하면 부상자의 통증도 줄어든다.", "condition": "피부를 보호하면", "action": "부상자의 통증도 줄어든다.", "order": 5, "severity": "", "refs": []}
+{"id": "3-45#1", "para_id": "3-45", "type": "DECISION_RULE", "text": "지혈대를 감을 때는 신발끈을 묶을 때의 첫 단계와 같은 반매듭을 묶는다.", "condition": "지혈대를 감을 때는", "action": "신발끈을 묶을 때의 첫 단계와 같은 반매듭을 묶는다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-45#2", "para_id": "3-45", "type": "FACT", "text": "반매듭 위에 막대나 다른 단단한 물체를 올린다(그림 3-37).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["그림3-37"]}
+{"id": "그림3-37#1", "para_id": "그림3-37", "type": "REFERENCE", "text": "그림 3-37. 반매듭 위에 올린 단단한 물체.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-37"]}
+{"id": "3-46#1", "para_id": "3-46", "type": "FACT", "text": "막대 위에 온매듭을 묶고, 지혈대가 팔다리를 조이거나 선홍색 출혈이 멈출 때까지 막대를 돌린다(그림 3-38).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-38"]}
+{"id": "3-46#2", "para_id": "3-46", "type": "DECISION_RULE", "text": "절단의 경우 검붉은 피가 잠시 스며 나올 수 있다.", "condition": "절단의 경우", "action": "검붉은 피가 잠시 스며 나올 수 있다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-46#3", "para_id": "3-46", "type": "FACT", "text": "이는 상처와 지혈대 사이에 갇혀 있던 피다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "그림3-38#1", "para_id": "그림3-38", "type": "REFERENCE", "text": "그림 3-38. 단단한 물체 위에 매듭을 묶고 돌린 지혈대.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-38"]}
+{"id": "3-47#1", "para_id": "3-47", "type": "DECISION_RULE", "text": "지혈대를 팔다리에 고정하려면 지혈대의 남은 끝을 막대 양 끝에 건다.", "condition": "지혈대를 팔다리에 고정하려면", "action": "지혈대의 남은 끝을 막대 양 끝에 건다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-47#2", "para_id": "3-47", "type": "FACT", "text": "막대가 풀리지 않도록 끝을 팔다리에 돌려 감고, 팔다리 옆쪽에서 서로 묶는다(그림 3-39).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["그림3-39"]}
+{"id": "그림3-39#1", "para_id": "그림3-39", "type": "REFERENCE", "text": "그림 3-39. 팔다리 옆쪽에서 묶은 남은 끝.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림3-39"]}
+{"id": "3-48#1", "para_id": "3-48", "type": "FACT", "text": "막대는 다른 방법으로 고정해도 된다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-48#2", "para_id": "3-48", "type": "EXCEPTION", "text": "다만 재료가 막대에 감긴 상태로 유지되고 추가 부상이 생기지 않게 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-48#3", "para_id": "3-48", "type": "DECISION_RULE", "text": "가능하면 절단된 팔다리나 신체 일부를 부상자와 함께(부상자 눈에는 띄지 않게) 옮긴다.", "condition": "가능하면", "action": "절단된 팔다리나 신체 일부를 부상자와 함께(부상자 눈에는 띄지 않게) 옮긴다.", "order": 3, "severity": "", "refs": []}
+{"id": "3-48#4", "para_id": "3-48", "type": "PROHIBITION", "text": "지혈대는 절대 덮지 말고 완전히 보이게 둔다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-48#5", "para_id": "3-48", "type": "DECISION_RULE", "text": "팔다리가 완전히 절단되었으면 절단면에 붕대를 감는다.", "condition": "팔다리가 완전히 절단되었으면", "action": "절단면에 붕대를 감는다.", "order": 5, "severity": "", "refs": []}
+{"id": "3-48#6", "para_id": "3-48", "type": "FACT", "text": "모든 상처는 오염을 막기 위해 붕대로 덮는다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "3-48#7", "para_id": "3-48", "type": "FACT", "text": "지혈대를 감았다는 표시로 부상자 이마에 \"T\"와 시각을 적는다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "3-48#8", "para_id": "3-48", "type": "DECISION_RULE", "text": "필요하면 부상자의 피로 적는다.", "condition": "필요하면", "action": "부상자의 피로 적는다.", "order": 8, "severity": "", "refs": []}
+{"id": "3-48#9", "para_id": "3-48", "type": "FACT", "text": "쇼크를 확인·처치하고 의료 지원을 요청한다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "3-48.box1#1", "para_id": "3-48.box1", "type": "CAUTION", "text": "지혈대를 스스로 풀지 않는다.", "condition": "", "action": "", "order": 1, "severity": "caution", "refs": []}
+{"id": "3-48.box1#2", "para_id": "3-48.box1", "type": "CAUTION", "text": "지혈대의 조정·제거·해제는 훈련받은 의무요원만, 적절한 환경에서만 할 수 있다.", "condition": "", "action": "", "order": 2, "severity": "caution", "refs": []}
+{"id": "3-49#1", "para_id": "3-49", "type": "FACT", "text": "쇼크라는 말은 여러 뜻으로 쓰인다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-49#2", "para_id": "3-49", "type": "DEFINITION", "text": "의학에서는 몸의 심혈관계가 무너져 조직에 혈액이 충분히 공급되지 않는 상태를 말한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-49#3", "para_id": "3-49", "type": "FACT", "text": "쇼크는 몸을 마비시키고 약하게 한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-49#4", "para_id": "3-49", "type": "FACT", "text": "정상적인 혈류가 깨지면 사망할 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-49#5", "para_id": "3-49", "type": "DECISION_RULE", "text": "조기에 알아채고 올바르게 응급처치하면 부상자의 생명을 구할 수 있다.", "condition": "조기에 알아채고 올바르게 응급처치하면", "action": "부상자의 생명을 구할 수 있다.", "order": 5, "severity": "", "refs": []}
+{"id": "3-50#1", "para_id": "3-50", "type": "FACT", "text": "쇼크의 세 가지 기본 영향은 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-50#2", "para_id": "3-50", "type": "FACT", "text": "심장이 손상되어 피를 펌프질하지 못한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-50#3", "para_id": "3-50", "type": "FACT", "text": "혈액 손실(심한 출혈)로 혈관 속 체액이 고갈된다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-50#4", "para_id": "3-50", "type": "FACT", "text": "혈관이 확장되어 혈압이 위험한 수준으로 떨어진다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-51#1", "para_id": "3-51", "type": "FACT", "text": "쇼크의 원인은 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-51#2", "para_id": "3-51", "type": "FACT", "text": "탈수.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-51#3", "para_id": "3-51", "type": "FACT", "text": "음식, 약물, 곤충 쏘임, 뱀 물림에 대한 알레르기 반응.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-51#4", "para_id": "3-51", "type": "FACT", "text": "상당한 혈액 손실.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-51#5", "para_id": "3-51", "type": "FACT", "text": "상처, 피, 기타 참혹한 장면을 보고 생기는 반응.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "3-51#6", "para_id": "3-51", "type": "FACT", "text": "외상.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "3-51#7", "para_id": "3-51", "type": "FACT", "text": "화상.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "3-51#8", "para_id": "3-51", "type": "FACT", "text": "총상 또는 파편상.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "3-51#9", "para_id": "3-51", "type": "FACT", "text": "압궤상.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "3-51#10", "para_id": "3-51", "type": "FACT", "text": "뼈를 부러뜨리거나 내장을 손상시킬 수 있는 타격.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "3-51#11", "para_id": "3-51", "type": "FACT", "text": "머리 부상.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "3-51#12", "para_id": "3-51", "type": "FACT", "text": "칼, 대검, 투사체 등에 의한 관통상.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "3-52#1", "para_id": "3-52", "type": "FACT", "text": "부상자에게 다음 징후와 증상이 있는지 살핀다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-52#2", "para_id": "3-52", "type": "FACT", "text": "땀이 나지만 차가운(축축한) 피부.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-52#3", "para_id": "3-52", "type": "FACT", "text": "약하고 빠른 맥박.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-52#4", "para_id": "3-52", "type": "FACT", "text": "(지나치게) 빠른 호흡.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-52#5", "para_id": "3-52", "type": "FACT", "text": "창백하거나 잿빛인 피부.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "3-52#6", "para_id": "3-52", "type": "FACT", "text": "특히 입 주위와 입술의 청색증(파래짐) 또는 얼룩덜룩한 피부.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "3-52#7", "para_id": "3-52", "type": "FACT", "text": "안절부절못함 또는 초조함.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "3-52#8", "para_id": "3-52", "type": "FACT", "text": "갈증.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "3-52#9", "para_id": "3-52", "type": "FACT", "text": "상당한 혈액 손실.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "3-52#10", "para_id": "3-52", "type": "FACT", "text": "혼란 또는 방향 감각 상실.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "3-52#11", "para_id": "3-52", "type": "FACT", "text": "메스꺼움, 구토, 또는 둘 다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "3-53#1", "para_id": "3-53", "type": "DECISION_RULE", "text": "야전에서의 쇼크 응급처치는 쇼크 예방 조치와 같다.", "condition": "야전에", "action": "서의 쇼크 응급처치는 쇼크 예방 조치와 같다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-53#2", "para_id": "3-53", "type": "DECISION_RULE", "text": "부상자를 처치할 때는 항상 이미 쇼크 상태이거나 곧 쇼크가 올 것이라고 가정한다.", "condition": "부상자를 처치할 때는", "action": "항상 이미 쇼크 상태이거나 곧 쇼크가 올 것이라고 가정한다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-53#3", "para_id": "3-53", "type": "DECISION_RULE", "text": "쇼크 징후가 보일 때까지 기다리면 부상자의 생명이 위험해질 수 있다.", "condition": "쇼크 징후가 보일 때까지 기다리면", "action": "부상자의 생명이 위험해질 수 있다.", "order": 3, "severity": "", "refs": []}
+{"id": "3-54#1", "para_id": "3-54", "type": "DECISION_RULE", "text": "골절이 의심되는데 아직 부목을 대지 않았다면 부상자나 그 팔다리를 절대 움직이지 않는다.", "condition": "골절이 의심되는데 아직 부목을 대지 않았다면", "action": "부상자나 그 팔다리를 절대 움직이지 않는다.", "order": 1, "severity": "", "refs": []}
+{"id": "3-54#2", "para_id": "3-54", "type": "DECISION_RULE", "text": "엄폐물이 있고 상황이 허락하면 부상자를 엄폐물 뒤로 옮긴다.", "condition": "엄폐물이 있고 상황이 허락하면", "action": "부상자를 엄폐물 뒤로 옮긴다.", "order": 2, "severity": "", "refs": []}
+{"id": "3-54#3", "para_id": "3-54", "type": "FACT", "text": "등을 대고 눕힌다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-54#4", "para_id": "3-54", "type": "FACT", "text": "가슴 부상으로 쇼크가 왔거나 호흡이 곤란한 부상자는 앉은 자세가 숨쉬기 편할 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-54#5", "para_id": "3-54", "type": "DECISION_RULE", "text": "그렇다면 앉게 하되, 상태가 나빠지지 않는지 주의 깊게 관찰한다.", "condition": "그렇다면", "action": "앉게 하되, 상태가 나빠지지 않는지 주의 깊게 관찰한다.", "order": 5, "severity": "", "refs": []}
+{"id": "3-54#6", "para_id": "3-54", "type": "FACT", "text": "발을 심장보다 높게 올린다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "3-54#7", "para_id": "3-54", "type": "FACT", "text": "군장이나 말아 놓은 옷 같은 안정된 물체로 발을 받쳐 미끄러지지 않게 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "3-54.box1#1", "para_id": "3-54.box1", "type": "WARNING", "text": "부목을 대지 않은 다리 골절, 머리 부상, 복부 부상이 있으면 다리를 올리지 않는다.", "condition": "", "action": "", "order": 1, "severity": "warning", "refs": []}
+{"id": "3-54.box1#2", "para_id": "3-54.box1", "type": "WARNING", "text": "발을 올리기 전에 다리 골절이 있는지 확인하고 필요하면 부목을 댄다.", "condition": "", "action": "", "order": 2, "severity": "warning", "refs": []}
+{"id": "3-54.box1#3", "para_id": "3-54.box1", "type": "WARNING", "text": "복부 부상자는 무릎을 세운(굽힌) 자세로 둔다.", "condition": "", "action": "", "order": 3, "severity": "warning", "refs": []}
+{"id": "3-55#1", "para_id": "3-55", "type": "FACT", "text": "목, 허리 등 조이는 곳의 옷을 느슨하게 한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-55.box1#1", "para_id": "3-55.box1", "type": "CAUTION", "text": "화학 환경에서는 보호의를 느슨하게 하거나 벗기지 않는다.", "condition": "", "action": "", "order": 1, "severity": "caution", "refs": []}
+{"id": "3-56#1", "para_id": "3-56", "type": "FACT", "text": "부상자가 추워지거나 더워지지 않게 한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-56#2", "para_id": "3-56", "type": "FACT", "text": "정상 체온을 유지하는 것이 핵심이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "3-56#3", "para_id": "3-56", "type": "FACT", "text": "추운 날씨에는 담요 같은 것을 부상자 위아래에 깔고 덮어 따뜻하게 하고 체온 저하를 막는다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "3-56#4", "para_id": "3-56", "type": "EXCEPTION", "text": "다만 지혈대를 감았다면 (가능한 한) 지혈대는 드러나게 둔다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "3-56#5", "para_id": "3-56", "type": "PROHIBITION", "text": "더운 날씨에는 그늘에 두고 몸이 식지 않도록 보호하되, 담요 등을 지나치게 덮지 않는다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "3-56#6", "para_id": "3-56", "type": "FACT", "text": "부상자를 진정시킨다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "3-56#7", "para_id": "3-56", "type": "FACT", "text": "처치하는 내내 부상자를 안심시키고 진정시켜야 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "3-56#8", "para_id": "3-56", "type": "FACT", "text": "단호하게 상황을 주도하고 자신감을 보이면 된다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "3-56#9", "para_id": "3-56", "type": "FACT", "text": "도우러 왔다고 안심시킨다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "3-56#10", "para_id": "3-56", "type": "FACT", "text": "의료 지원을 요청한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "3-57#1", "para_id": "3-57", "type": "PROHIBITION", "text": "쇼크 응급처치 중에는 부상자에게 음식이나 물을 절대 주지 않는다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "3-57#2", "para_id": "3-57", "type": "DECISION_RULE", "text": "부상자를 두고 자리를 떠야 하거나 부상자가 의식이 없으면, 토할 때 질식하지 않도록 고개를 옆으로 돌려 둔다.", "condition": "부상자를 두고 자리를 떠야 하거나 부상자가 의식이 없으면", "action": "토할 때 질식하지 않도록 고개를 옆으로 돌려 둔다.", "order": 2, "severity": "", "refs": []}
+{"id": "5.intro1#1", "para_id": "5.intro1", "type": "FACT", "text": "적이 당신을 볼 수 있고 당신이 적 무기의 사거리 안에 있다면, 적은 당신과 교전하여 당신을 죽일 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5.intro1#2", "para_id": "5.intro1", "type": "FACT", "text": "그러므로 적의 관측으로부터 은폐되어야 하고, 적의 사격으로부터 엄폐되어야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5.intro1#3", "para_id": "5.intro1", "type": "DECISION_RULE", "text": "지형이 자연적인 엄폐와 은폐를 제공하지 않으면 엄폐물을 준비하고, 자연·인공 재료로 자신과 장비와 진지를 위장해야 한다.", "condition": "지형이 자연적인 엄폐와 은폐를 제공하지 않으면", "action": "엄폐물을 준비하고, 자연·인공 재료로 자신과 장비와 진지를 위장해야 한다.", "order": 3, "severity": "", "refs": []}
+{"id": "5.intro1#4", "para_id": "5.intro1", "type": "FACT", "text": "이 장은 엄폐, 은폐, 위장의 준비와 활용 지침을 제시한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5.intro1#5", "para_id": "5.intro1", "type": "EXCEPTION", "text": "다만 전투진지는 제6장에서 다룬다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["제6장"]}
+{"id": "5.intro2#1", "para_id": "5.intro2", "type": "FACT", "text": "자연 또는 인공 재료로 된 엄폐물은 총탄, 폭발한 탄의 파편, 화염, 핵 효과, 생물·화학 작용제, 그리고 적의 관측으로부터 보호해 준다(그림 5-1).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-1"]}
+{"id": "5.intro2#2", "para_id": "5.intro2", "type": "REFERENCE", "text": "(전투진지의 엄폐는 제6장에서 다룬다.)", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["제6장"]}
+{"id": "그림5-1#1", "para_id": "그림5-1", "type": "REFERENCE", "text": "그림 5-1. 자연 엄폐물.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-1"]}
+{"id": "5-1#1", "para_id": "5-1", "type": "FACT", "text": "자연 엄폐물에는 통나무, 나무, 그루터기, 바위, 협곡 등이 있고, 인공 엄폐물에는 전투진지, 교통호, 벽, 잔해, 포탄 구덩이 등이 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-1#2", "para_id": "5-1", "type": "DECISION_RULE", "text": "공격 중이거나 이동할 때 적 사격으로부터 보호받으려면 자신과 적 사이에 엄폐물이 놓이는 경로를 이용한다.", "condition": "공격 중이거나 이동할 때", "action": "적 사격으로부터 보호받으려면 자신과 적 사이에 엄폐물이 놓이는 경로를 이용한다.", "order": 2, "severity": "", "refs": []}
+{"id": "5-1#3", "para_id": "5-1", "type": "FACT", "text": "예를 들어 협곡, 도랑, 언덕, 숲, 벽 등 적이 당신을 보고 사격하지 못하게 하는 모든 엄폐물을 이용한다(그림 5-2).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림5-2"]}
+{"id": "5-1#4", "para_id": "5-1", "type": "PROHIBITION", "text": "개활지를 피한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-1#5", "para_id": "5-1", "type": "FACT", "text": "언덕 꼭대기나 능선 위에서 하늘을 배경으로 몸이 드러나지 않게 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "5-1#6", "para_id": "5-1", "type": "FACT", "text": "아주 작은 움푹한 곳이나 땅의 주름 같은 엄폐물이라도 적의 직사·곡사 화기로부터 몸을 보호하는 데 도움이 된다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "그림5-2#1", "para_id": "그림5-2", "type": "REFERENCE", "text": "그림 5-2. 벽을 따라 이용하는 엄폐.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-2"]}
+{"id": "5-2#1", "para_id": "5-2", "type": "FACT", "text": "인공 엄폐물에는 전투진지와 보호 장비가 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-3#1", "para_id": "5-3", "type": "FACT", "text": "전투진지에 대한 자세한 내용은 제6장을 참조한다(그림 5-3).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-3", "제6장"]}
+{"id": "그림5-3#1", "para_id": "그림5-3", "type": "REFERENCE", "text": "그림 5-3. 인공 엄폐물.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-3"]}
+{"id": "5-4#1", "para_id": "5-4", "type": "FACT", "text": "인공 엄폐물에는 방탄복과 방탄모처럼 착용하는 보호 장비도 포함된다(그림 5-4).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-4"]}
+{"id": "5-4#2", "para_id": "5-4", "type": "FACT", "text": "방탄복은 파편과 총탄에 의한 부상을 최소화하는 갑옷 형태의 보호 장비다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-4#3", "para_id": "5-4", "type": "FACT", "text": "인터셉터 방탄복(IBA)의 외부 전술 조끼 (OTV)는 촘촘히 짠 케블라로 안감을 대어 9mm 탄과 그보다 느린 파편을 막는다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-4#4", "para_id": "5-4", "type": "FACT", "text": "목, 목울대, 어깨, 사타 구니 보호대는 탈착할 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-4#5", "para_id": "5-4", "type": "DECISION_RULE", "text": "조끼 앞뒤에는 7.62mm 탄을 막도록 설계된 소화기 방호판 2장을 추가로 넣을 수 있다.", "condition": "조끼 앞뒤에", "action": "는 7.62mm 탄을 막도록 설계된 소화기 방호판 2장을 추가로 넣을 수 있다.", "order": 5, "severity": "", "refs": []}
+{"id": "5-4#6", "para_id": "5-4", "type": "FACT", "text": "방호판은 붕소 탄화물 세라믹과 뒷판으로 만들어져 탄을 부수고 운동 에너지를 멈춘다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "5-4#7", "para_id": "5-4", "type": "FACT", "text": "이 조끼는 유연성과 열 스트레스에 관한 엄격한 성능 기준도 충족한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "5-4#8", "para_id": "5-4", "type": "FACT", "text": "신형 전투 헬멧(ACH)은 파편과 총탄은 물론 열과 화염으로부터도 균형 있고 안정되게 머리를 보호한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "그림5-4#1", "para_id": "그림5-4", "type": "REFERENCE", "text": "그림 5-4. 방탄복과 헬멧.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-4"]}
+{"id": "5-5#1", "para_id": "5-5", "type": "FACT", "text": "M20 간이 집단 보호 장비(SCPE)는 화학·생물 작용제와 방사성 입자로부터 보호하는 공기 주입식 쉘터다(그림 5-5).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-5"]}
+{"id": "5-5#2", "para_id": "5-5", "type": "FACT", "text": "SCPE는 개인 보호 장비를 착용하지 않고도 임무를 수행할 수 있는 깨끗한 공기 환경을 제공한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "그림5-5#1", "para_id": "그림5-5", "type": "REFERENCE", "text": "그림 5-5. 화학·생물 작용제에 대한 보호 엄폐.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-5"]}
+{"id": "5.intro3#1", "para_id": "5.intro3", "type": "DEFINITION", "text": "은폐란 적의 관측으로부터 당신을 숨겨 주는 모든 것이다(그림 5-6).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-6"]}
+{"id": "5.intro3#2", "para_id": "5.intro3", "type": "FACT", "text": "은폐는 적의 사격으로부터 당신을 보호하지 못한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5.intro3#3", "para_id": "5.intro3", "type": "PROHIBITION", "text": "은폐되어 있다고 해서 적 사격으로부터 보호받고 있다고 생각해서는 안 된다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5.intro3#4", "para_id": "5.intro3", "type": "FACT", "text": "은폐도 엄폐처럼 자연적인 것과 병사가 만든 것이 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5.intro3#5", "para_id": "5.intro3", "type": "REFERENCE", "text": "(전투진지 은폐 기법은 제6장에서 다룬다.)", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["제6장"]}
+{"id": "그림5-6#1", "para_id": "그림5-6", "type": "REFERENCE", "text": "그림 5-6. 은폐.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-6"]}
+{"id": "5-6#1", "para_id": "5-6", "type": "FACT", "text": "자연 은폐물에는 수풀, 풀, 그림자 등이 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-6#2", "para_id": "5-6", "type": "DECISION_RULE", "text": "가능하면 자연 은폐물은 건드리지 않는다.", "condition": "가능하면", "action": "자연 은폐물은 건드리지 않는다.", "order": 2, "severity": "", "refs": []}
+{"id": "5-6#3", "para_id": "5-6", "type": "FACT", "text": "인공 은폐물에는 육군 전투복(ACU), 위장망, 위장 크림, 원래 자리에서 옮겨 온 자연 재료 등이 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-6#4", "para_id": "5-6", "type": "FACT", "text": "인공 은폐물은 지형이 제공하는 자연 은폐와 어우러져야 한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-7#1", "para_id": "5-7", "type": "FACT", "text": "등화·소음·이동 통제와 위장은 은폐에 기여한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-7#2", "para_id": "5-7", "type": "DEFINITION", "text": "등화 통제란 야간에 개활지에서 담배를 피우지 않고, 손전등을 켠 채 돌아다니지 않고, 차량 전조등을 쓰지 않는 등 불빛 사용을 통제하는 것이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-7#3", "para_id": "5-7", "type": "DEFINITION", "text": "소음 통제란 부대가 내는 소리(장비 가동 등)가 적 쪽으로 가지 않게 하고, 가능하면 소리가 나지 않는 통신 방법(수신호)을 쓰는 것이다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-7#4", "para_id": "5-7", "type": "DEFINITION", "text": "이동 통제란 꼭 필요하지 않으면 전투진지 주변을 돌아다니지 않고, 엄폐·은폐가 없는 경로로 이동하지 않는 것이다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-7#5", "para_id": "5-7", "type": "PROHIBITION", "text": "방어 시에는 위장이 잘된 전투진지를 구축하고 돌아다니지 않는다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "5-7#6", "para_id": "5-7", "type": "FACT", "text": "공격 시에는 자신과 장비를 위장하고, 숲이나 은폐를 제공하는 지형으로 이동한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "5-7#7", "para_id": "5-7", "type": "FACT", "text": "공격이든 방어든 어둠이 적의 관측으로부터 당신을 숨겨 주지는 못한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "5-7#8", "para_id": "5-7", "type": "FACT", "text": "적은 야간투시장비(NVD)와 기타 탐지 수단으로 낮이든 밤이든 당신을 찾아낼 수 있다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "5.intro4#1", "para_id": "5.intro4", "type": "DEFINITION", "text": "위장이란 자신과 장비와 진지가 식별되지 않게 하려고 사용하는 모든 것이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5.intro4#2", "para_id": "5.intro4", "type": "FACT", "text": "자연 재료와 인공 재료 모두 위장에 쓸 수 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5.intro4#3", "para_id": "5.intro4", "type": "FACT", "text": "위장은 자주 바꾸고 보완한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5.intro4#4", "para_id": "5.intro4", "type": "FACT", "text": "교체·보완 주기는 날씨와 재료에 따라 다르다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5.intro4#5", "para_id": "5.intro4", "type": "DECISION_RULE", "text": "자연 위장재는 시들거나 색이 바래거나 효과를 잃는 경우가 많다.", "condition": "자연 위장재는 시들거나 색이 바래거나 효과를 잃는 경우", "action": "가 많다.", "order": 5, "severity": "", "refs": []}
+{"id": "5.intro4#6", "para_id": "5.intro4", "type": "FACT", "text": "인공 위장재도 닳거나 바래서 병사와 장비와 진지가 주변에서 두드러져 보일 수 있다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "5.intro4#7", "para_id": "5.intro4", "type": "DECISION_RULE", "text": "적이 발견하기 어렵게 하려면 위장할 때 다음을 기억한다.", "condition": "적이 발견하기 어렵게 하려면", "action": "위장할 때 다음을 기억한다.", "order": 7, "severity": "", "refs": []}
+{"id": "5.intro4#8", "para_id": "5.intro4", "type": "REFERENCE", "text": "(전투진지 위장 기법은 제6장에서 다룬다.)", "condition": "", "action": "", "order": 8, "severity": "", "refs": ["제6장"]}
+{"id": "5-8#1", "para_id": "5-8", "type": "FACT", "text": "움직임과 활동은 주의를 끈다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-8#2", "para_id": "5-8", "type": "DECISION_RULE", "text": "수신호를 하거나 진지 주변을 걸어 다니면 그 움직임은 먼 거리에서도 맨눈에 보인다.", "condition": "수신호를 하거나 진지 주변을 걸어 다니면", "action": "그 움직임은 먼 거리에서도 맨눈에 보인다.", "order": 2, "severity": "", "refs": []}
+{"id": "5-8#3", "para_id": "5-8", "type": "FACT", "text": "방어 시에는 자세를 낮춘다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-8#4", "para_id": "5-8", "type": "FACT", "text": "꼭 필요할 때만 움직인다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-8#5", "para_id": "5-8", "type": "FACT", "text": "공격 시에는 엄폐·은폐된 경로로만 이동한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "5-9#1", "para_id": "5-9", "type": "PROHIBITION", "text": "적이 예상하는 곳에는 아무것도 두지 않는다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-9#2", "para_id": "5-9", "type": "FACT", "text": "진지는 도로 교차점이나 외딴 건물에서 떨어진 언덕 사면, 그리고 엄폐·은폐된 곳에 구축한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-9#3", "para_id": "5-9", "type": "PROHIBITION", "text": "개활지를 피한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-10#1", "para_id": "5-10", "type": "FACT", "text": "윤곽과 그림자는 공중 또는 지상 관측자에게 진지나 장비의 위치를 드러낼 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-10#2", "para_id": "5-10", "type": "FACT", "text": "위장으로 윤곽과 그림자를 끊어 준다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-10#3", "para_id": "5-10", "type": "DECISION_RULE", "text": "이동할 때는 그림자 속에 머물도록 한다.", "condition": "이동할 때는", "action": "그림자 속에 머물도록 한다.", "order": 3, "severity": "", "refs": []}
+{"id": "5-11#1", "para_id": "5-11", "type": "FACT", "text": "반짝임은 자연히 적의 주의를 끈다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-11#2", "para_id": "5-11", "type": "FACT", "text": "어둠 속에서는 타는 담배나 손전등이 위치를 노출시킨다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-11#3", "para_id": "5-11", "type": "FACT", "text": "낮에는 반짝이는 식기, 닳은 헬멧, 차량 앞유리, 시계 유리와 시곗줄, 드러난 피부 등 매끄러운 표면에서 반사된 빛이 위치를 노출시킨다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-11#4", "para_id": "5-11", "type": "FACT", "text": "어떤 빛이나 빛의 반사도 적이 진지를 찾는 데 도움이 된다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-11#5", "para_id": "5-11", "type": "DECISION_RULE", "text": "반사를 줄이려면 피부는 옷과 위장 크림으로 가린다.", "condition": "반사를 줄이려면", "action": "피부는 옷과 위장 크림으로 가린다.", "order": 5, "severity": "", "refs": []}
+{"id": "5-11#6", "para_id": "5-11", "type": "FACT", "text": "장비와 차량 표면은 페인트, 진흙, 기타 위장 재료로 광택을 죽인다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "5-11.box1#1", "para_id": "5-11.box1", "type": "WARNING", "text": "핵 공격 시 피부를 어둡게 칠하면 열에너지를 더 많이 흡수하여 맨살보다 쉽게 화상을 입을 수 있다.", "condition": "", "action": "", "order": 1, "severity": "warning", "refs": []}
+{"id": "5-12#1", "para_id": "5-12", "type": "FACT", "text": "헬멧이나 사람의 모습 같은 특정 형태는 쉽게 알아볼 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-12#2", "para_id": "5-12", "type": "FACT", "text": "익숙한 형태를 위장·은폐하고 끊어서 주변과 어우러지게 하되, 지나치지 않게 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-13#1", "para_id": "5-13", "type": "DECISION_RULE", "text": "피부, 전투복, 장비의 색이 배경과 대비되면 적이 당신을 훨씬 쉽게 발견한다.", "condition": "피부, 전투복, 장비의 색이 배경과 대비되면", "action": "적이 당신을 훨씬 쉽게 발견한다.", "order": 1, "severity": "", "refs": []}
+{"id": "5-13#2", "para_id": "5-13", "type": "FACT", "text": "예를 들어 ACU는 눈 덮인 지형에서 두드러진다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-13#3", "para_id": "5-13", "type": "FACT", "text": "다시 강조하지만, 자신과 장비를 주변과 어우러지게 위장한다(그림 5-7).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림5-7"]}
+{"id": "그림5-7#1", "para_id": "그림5-7", "type": "REFERENCE", "text": "그림 5-7. 극지 위장을 한 병사.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-7"]}
+{"id": "5-14#1", "para_id": "5-14", "type": "DEFINITION", "text": "분산이란 병사, 차량, 장비를 넓은 지역에 펼쳐 놓는 것이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-14#2", "para_id": "5-14", "type": "FACT", "text": "적은 혼자 있는 병사보다 모여 있는 병사들을 더 쉽게 발견한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-14#3", "para_id": "5-14", "type": "FACT", "text": "흩어진다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-14#4", "para_id": "5-14", "type": "FACT", "text": "병사 간 간격은 지형, 가시도, 적 상황에 따라 부대 예규나 지휘자가 정한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-15#1", "para_id": "5-15", "type": "DECISION_RULE", "text": "위장하기 전에 작전 지역의 지형과 식생을 살핀다.", "condition": "위장하기 전에", "action": "작전 지역의 지형과 식생을 살핀다.", "order": 1, "severity": "", "refs": []}
+{"id": "5-15#2", "para_id": "5-15", "type": "FACT", "text": "그다음 그 지역과 가장 잘 어울리는 위장 재료를 골라 쓴다(그림 5-8).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["그림5-8"]}
+{"id": "5-15#3", "para_id": "5-15", "type": "DECISION_RULE", "text": "다른 지역으로 이동하면 주변과 어울리도록 필요에 따라 위장을 바꾼다.", "condition": "다른 지역으로 이동하면", "action": "주변과 어울리도록 필요에 따라 위장을 바꾼다.", "order": 3, "severity": "", "refs": []}
+{"id": "5-15#4", "para_id": "5-15", "type": "FACT", "text": "현 위치의 풀, 잎, 덤불 등을 전투복과 장비에 붙이고, 피부에는 위장 크림을 바른다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "그림5-8#1", "para_id": "그림5-8", "type": "REFERENCE", "text": "그림 5-8. 위장한 병사들.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-8"]}
+{"id": "5-16#1", "para_id": "5-16", "type": "FACT", "text": "헬멧은 지급된 헬멧 커버로 위장하거나, 지형과 어울리는 색의 천이나 마대로 커버를 만들어 씌운다(그림 5-9).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-9"]}
+{"id": "5-16#2", "para_id": "5-16", "type": "FACT", "text": "커버에 잎, 풀, 나뭇가지를 붙여도 된다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-16#3", "para_id": "5-16", "type": "FACT", "text": "위장 밴드, 끈, 마대 조각, 고무줄로 고정한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-16#4", "para_id": "5-16", "type": "DECISION_RULE", "text": "헬멧 커버를 만들 재료가 없으면 페인트나 진흙으로 불규칙한 무늬를 그려 헬멧 표면을 가리고 광택을 죽인다.", "condition": "헬멧 커버를 만들 재료가 없으면", "action": "페인트나 진흙으로 불규칙한 무늬를 그려 헬멧 표면을 가리고 광택을 죽인다.", "order": 4, "severity": "", "refs": []}
+{"id": "그림5-9#1", "para_id": "그림5-9", "type": "REFERENCE", "text": "그림 5-9. 위장한 헬멧.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-9"]}
+{"id": "5-17#1", "para_id": "5-17", "type": "FACT", "text": "ACU는 상의, 하의, 정찰모가 새로운 범용 위장 무늬로 되어 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-17#2", "para_id": "5-17", "type": "EXCEPTION", "text": "그래도 주변과 더 잘 어울리도록 위장을 더해야 할 수 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-17#3", "para_id": "5-17", "type": "FACT", "text": "이를 위해 전투복에 진흙을 바르거나 잎, 풀, 작은 가지를 붙인다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-17#4", "para_id": "5-17", "type": "EXCEPTION", "text": "그러나 위장이 지나치면 오히려 주의를 끌 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-17#5", "para_id": "5-17", "type": "FACT", "text": "눈 덮인 지역에서는 (지급되었다면) 설상 위장복을 입어 눈과 어우러지게 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "5-17#6", "para_id": "5-17", "type": "DECISION_RULE", "text": "지급되지 않았다면 흰 침대 시트 같은 흰 천으로 같은 효과를 낸다.", "condition": "지급되지 않았다면", "action": "흰 침대 시트 같은 흰 천으로 같은 효과를 낸다.", "order": 6, "severity": "", "refs": []}
+{"id": "5-18#1", "para_id": "5-18", "type": "FACT", "text": "드러난 피부는 빛을 반사하여 적의 주의를 끌 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-18#2", "para_id": "5-18", "type": "FACT", "text": "피부가 아주 어두워도 자연 유분 때문에 빛을 반사한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-18#3", "para_id": "5-18", "type": "FACT", "text": "콤팩트형 신형 위장 크림은 방충제가 든 것과 들지 않은 것이 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-18#4", "para_id": "5-18", "type": "FACT", "text": "방충제의 유효 성분은 N,N-디에틸-m-톨루아미드(흔히 DEET라 부름)다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "5-18#5", "para_id": "5-18", "type": "FACT", "text": "위장 크림은 가시광선과 근적외선 위장 효과를 제공한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "5-18#6", "para_id": "5-18", "type": "DECISION_RULE", "text": "DEET 가 든 제품은 8시간 동안 벌레도 쫓는다.", "condition": "DEET 가 든 제품은 8시간 동안", "action": "벌레도 쫓는다.", "order": 6, "severity": "", "refs": []}
+{"id": "5-18#7", "para_id": "5-18", "type": "FACT", "text": "둘 다 콤팩트형으로 지급되며 깨지지 않는 스테인리스 거울이 들어 있다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "5-18#8", "para_id": "5-18", "type": "FACT", "text": "두 콤팩트 모두 다섯 칸의 색소(녹색, 황토색, 모래색, 흰색, 검은색)로 되어 있다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "5-18#9", "para_id": "5-18", "type": "FACT", "text": "녹색·황토색·모래색은 20회, 검은색·흰색은 10회 바를 수 있는 양이다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "5-18#10", "para_id": "5-18", "type": "FACT", "text": "극지부터 사막까지 여러 지형 환경에 쓸 수 있다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "5-18#11", "para_id": "5-18", "type": "FACT", "text": "방충제가 든 위장 크림은 황갈색 콤팩트, 방충제가 없는 것은 올리브색 콤팩트로 지급되어 바로 구별할 수 있다(그림 5-10).", "condition": "", "action": "", "order": 11, "severity": "", "refs": ["그림5-10"]}
+{"id": "5-18#12", "para_id": "5-18", "type": "DECISION_RULE", "text": "피부에 위장 크림을 바를 때는 전우와 짝을 지어 서로 돕는다.", "condition": "피부에 위장 크림을 바를 때는", "action": "전우와 짝을 지어 서로 돕는다.", "order": 12, "severity": "", "refs": []}
+{"id": "5-18#13", "para_id": "5-18", "type": "FACT", "text": "두 가지 색을 불규칙한 무늬로 바른다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "5-18#14", "para_id": "5-18", "type": "DECISION_RULE", "text": "동상 위험이 있으면 위장 크림을 바르지 않는다.", "condition": "동상 위험이 있으면", "action": "위장 크림을 바르지 않는다.", "order": 14, "severity": "", "refs": []}
+{"id": "5-18#15", "para_id": "5-18", "type": "FACT", "text": "피부가 얼기 시작할 때의 첫 증상인 하얗게 변색되는 것을 다른 병사가 알아보지 못하게 할 수 있다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "그림5-10#1", "para_id": "그림5-10", "type": "REFERENCE", "text": "그림 5-10. 신형 위장 크림.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림5-10"]}
+{"id": "5-18.note1#1", "para_id": "5-18.note1", "type": "FACT", "text": "방충제가 든 신형 위장 크림의 국가재고번호(NSN)는 6840-01-493-7334, 방충제가 없는 것은 NSN 6850-01-493-7309이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-19#1", "para_id": "5-19", "type": "FACT", "text": "빛나는 부위(이마, 광대뼈, 코, 귀, 턱)는 어두운 색으로 칠한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "5-19#2", "para_id": "5-19", "type": "FACT", "text": "그늘지는 부위(눈 주위, 코 밑, 턱 밑)는 밝은 색으로 칠한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "5-19#3", "para_id": "5-19", "type": "FACT", "text": "얼굴 외에 목 뒤, 팔, 손의 드러난 피부도 칠한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "5-19#4", "para_id": "5-19", "type": "DECISION_RULE", "text": "수신호를 쓸 예정이면 보통 손바닥은 칠하지 않는다.", "condition": "수신호를 쓸 예정이면", "action": "보통 손바닥은 칠하지 않는다.", "order": 4, "severity": "", "refs": []}
+{"id": "5-19#5", "para_id": "5-19", "type": "DECISION_RULE", "text": "반사를 더 줄이려면 장신구를 모두 뺀다.", "condition": "반사를 더 줄이려면", "action": "장신구를 모두 뺀다.", "order": 5, "severity": "", "refs": []}
+{"id": "5-19#6", "para_id": "5-19", "type": "DECISION_RULE", "text": "위장 크림이 지급되지 않았으면 태운 코르크, 나무껍질, 숯, 램프 그을음, 밝은 색 진흙을 쓴다(표 5-1).", "condition": "위장 크림이 지급되지 않았으면", "action": "태운 코르크, 나무껍질, 숯, 램프 그을음, 밝은 색 진흙을 쓴다(표 5-1).", "order": 6, "severity": "", "refs": ["표5-1"]}
+{"id": "표5-1#1", "para_id": "표5-1", "type": "REFERENCE", "text": "표 5-1. 피부 위장 크림 바르는 법.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["표5-1"]}
+{"id": "9.intro1#1", "para_id": "9.intro1", "type": "FACT", "text": "소부대의 일원인 모든 병사는 유용한 정보를 제공할 수 있으며, 지휘관이 상황을 이해하는 데 꼭 필요한 요소다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9.intro1#2", "para_id": "9.intro1", "type": "FACT", "text": "병사가 작전하는 환경은 폭력, 불확실성, 복잡성, 그리고 적의 비대칭 적 방법으로 특징지어지므로 이 임무는 매우 중요하다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9.intro1#3", "para_id": "9.intro1", "type": "FACT", "text": "직접 접촉과 관측을 통해 키워야 하는 상황 인식은 아군이 작전 환경을 더 온전히 이해하는 능력의 핵심 요소다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9.intro1#4", "para_id": "9.intro1", "type": "FACT", "text": "당신과 전우의 생명은 당신이 보고, 듣고, 냄새 맡은 것을 보고하는 데 달려 있을 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-1#1", "para_id": "9-1", "type": "FACT", "text": "'모든 병사는 감지기다(ES2)' 개념은 병사가 작전 지역에서 지휘관 중요정보요구(CCIR)에 해당 하는 세부 사항을 능동적으로 관측하도록 훈련받고, 간결하고 정확하게 보고할 수 있도록 보장한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-1#2", "para_id": "9-1", "type": "FACT", "text": "지휘자는 부대 내에서 정보를 수집·처리·전파하여 적시에 첩보를 만드는 방법을 알아야 하며, ES2 이행을 개선하기 위한 정기적인 피드백과 평가 체계를 갖추어야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-1#3", "para_id": "9-1", "type": "FACT", "text": "모든 병사는 작전 지역에서 일어나는 일을 가까이에서 접하며, 환경을 관측하고 상호작용함으로써 정보를 수집할 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-1#4", "para_id": "9-1", "type": "FACT", "text": "정보 수집과 생산은 모두의 책임이다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-1#5", "para_id": "9-1", "type": "FACT", "text": "지휘자와 병사는 상황 이해를 얻고 유지하기 위해 지식을 얻으려 힘써야 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-2#1", "para_id": "9-2", "type": "DECISION_RULE", "text": "병사는 작전 환경의 사건을 가까이 접하면서 그림 9-1(9-2쪽)의 잠재 징후를 염두에 두어야 한다.", "condition": "병사는 작전 환경의 사건을 가까이 접하면", "action": "서 그림 9-1(9-2쪽)의 잠재 징후를 염두에 두어야 한다.", "order": 1, "severity": "", "refs": ["그림9-1", "쪽9-2"]}
+{"id": "9-2#2", "para_id": "9-2", "type": "FACT", "text": "이 징후들은 지휘관이 결심에 필요로 하는, 잠재적 적의 의도나 능력에 관한 정보다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-2#3", "para_id": "9-2", "type": "DECISION_RULE", "text": "당신은 다음과 같은 경우에 지휘관의 \"눈과 귀\"가 된다.", "condition": "당신은 다음과 같은 경우", "action": "에 지휘관의 \"눈과 귀\"가 된다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-2#4", "para_id": "9-2", "type": "FACT", "text": "전통적인 공격 또는 방어 임무 수행.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-2#5", "para_id": "9-2", "type": "FACT", "text": "안정화·재건 작전이나 민간 지원 작전 중 정찰.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-2#6", "para_id": "9-2", "type": "FACT", "text": "검문소나 차단소 운용.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-2#7", "para_id": "9-2", "type": "FACT", "text": "관측소 점령.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-2#8", "para_id": "9-2", "type": "FACT", "text": "호송 중 지역 통과.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-2#9", "para_id": "9-2", "type": "FACT", "text": "환경 요소의 관측과 보고.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-2#10", "para_id": "9-2", "type": "FACT", "text": "작전 지역 주민 활동의 관측과 보고.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "그림9-1#1", "para_id": "그림9-1", "type": "REFERENCE", "text": "그림 9-1. 잠재 징후.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-1"]}
+{"id": "그림9-1#2", "para_id": "그림9-1", "type": "FACT", "text": "시각청각촉각후각", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "그림9-1#3", "para_id": "그림9-1", "type": "FACT", "text": "찾아볼 것-- 들어볼 것-- 만져볼 것-- 냄새 맡을 것--", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "그림9-1#4", "para_id": "그림9-1", "type": "FACT", "text": "• 적 인원, 차량, 항공기", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "그림9-1#5", "para_id": "그림9-1", "type": "FACT", "text": "• 갑작스럽거나 이상한 움직임", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "그림9-1#6", "para_id": "그림9-1", "type": "FACT", "text": "• 새로운 주민", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "그림9-1#7", "para_id": "그림9-1", "type": "FACT", "text": "• 연기나 먼지", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "그림9-1#8", "para_id": "그림9-1", "type": "FACT", "text": "• 가축이나 야생동물의 이상한 움직임", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "그림9-1#9", "para_id": "그림9-1", "type": "FACT", "text": "• 평소 조용하거나 붐비는 시간 ·장소에서 주민의 이상한 활동 또는 활동 없음", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "그림9-1#10", "para_id": "그림9-1", "type": "FACT", "text": "• 차량이나 사람의 흔적", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "그림9-1#11", "para_id": "그림9-1", "type": "FACT", "text": "• 정리되지 않은 경로·지역·길을 따라 이동하는 주민", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "그림9-1#12", "para_id": "그림9-1", "type": "FACT", "text": "• 적이 지역을 점령했던 흔적", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "그림9-1#13", "para_id": "그림9-1", "type": "FACT", "text": "• 위협 양상이 바뀐 증거", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "그림9-1#14", "para_id": "그림9-1", "type": "FACT", "text": "• 최근에 잘린 나뭇잎·가지", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "그림9-1#15", "para_id": "그림9-1", "type": "FACT", "text": "• 총구 섬광, 불빛, 불, 반사광", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "그림9-1#16", "para_id": "그림9-1", "type": "FACT", "text": "• 비정상적인 양(너무 많거나 너무 적은)의 쓰레기", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "그림9-1#17", "para_id": "그림9-1", "type": "FACT", "text": "• 엔진 가동 소리나 궤도 소리", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "그림9-1#18", "para_id": "그림9-1", "type": "FACT", "text": "• 사람 목소리", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "그림9-1#19", "para_id": "그림9-1", "type": "FACT", "text": "• 금속성 소리", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "그림9-1#20", "para_id": "그림9-1", "type": "FACT", "text": "• 화기 종류별 총성", "condition": "", "action": "", "order": 20, "severity": "", "refs": []}
+{"id": "그림9-1#21", "para_id": "그림9-1", "type": "FACT", "text": "• 이상한 고요나 정적", "condition": "", "action": "", "order": 21, "severity": "", "refs": []}
+{"id": "그림9-1#22", "para_id": "그림9-1", "type": "FACT", "text": "• 도보 이동", "condition": "", "action": "", "order": 22, "severity": "", "refs": []}
+{"id": "그림9-1#23", "para_id": "그림9-1", "type": "FACT", "text": "• 항공기", "condition": "", "action": "", "order": 23, "severity": "", "refs": []}
+{"id": "그림9-1#24", "para_id": "그림9-1", "type": "FACT", "text": "• 불 속의 따뜻한 숯과 재료", "condition": "", "action": "", "order": 24, "severity": "", "refs": []}
+{"id": "그림9-1#25", "para_id": "그림9-1", "type": "FACT", "text": "• 새 발자국", "condition": "", "action": "", "order": 25, "severity": "", "refs": []}
+{"id": "그림9-1#26", "para_id": "그림9-1", "type": "FACT", "text": "• 음식이나 쓰레기의 경과 시간", "condition": "", "action": "", "order": 26, "severity": "", "refs": []}
+{"id": "그림9-1#27", "para_id": "그림9-1", "type": "FACT", "text": "• 차량 배기가스", "condition": "", "action": "", "order": 27, "severity": "", "refs": []}
+{"id": "그림9-1#28", "para_id": "그림9-1", "type": "FACT", "text": "• 타는 석유 제품", "condition": "", "action": "", "order": 28, "severity": "", "refs": []}
+{"id": "그림9-1#29", "para_id": "그림9-1", "type": "FACT", "text": "• 음식 조리", "condition": "", "action": "", "order": 29, "severity": "", "refs": []}
+{"id": "그림9-1#30", "para_id": "그림9-1", "type": "FACT", "text": "• 쓰레기 속 오래된 음식", "condition": "", "action": "", "order": 30, "severity": "", "refs": []}
+{"id": "그림9-1#31", "para_id": "그림9-1", "type": "FACT", "text": "• 인분", "condition": "", "action": "", "order": 31, "severity": "", "refs": []}
+{"id": "그림9-1#32", "para_id": "그림9-1", "type": "FACT", "text": "기타 고려 사항", "condition": "", "action": "", "order": 32, "severity": "", "refs": []}
+{"id": "그림9-1#33", "para_id": "그림9-1", "type": "FACT", "text": "무장 세력 파벌 세력, 지뢰 지대, 잠재 위협의 위치.", "condition": "", "action": "", "order": 33, "severity": "", "refs": []}
+{"id": "그림9-1#34", "para_id": "그림9-1", "type": "FACT", "text": "가옥과 건물 지붕, 문, 창문, 조명, 전선, 상하수도, 도로, 교량, 농작물, 가축의 상태.", "condition": "", "action": "", "order": 34, "severity": "", "refs": []}
+{"id": "그림9-1#35", "para_id": "그림9-1", "type": "FACT", "text": "기반 시설 영업 중인 상점, 주유소 등.", "condition": "", "action": "", "order": 35, "severity": "", "refs": []}
+{"id": "그림9-1#36", "para_id": "그림9-1", "type": "FACT", "text": "사람 수, 성별, 나이, 거주 또는 피란민 여부, 건강 상태, 옷 차림, 일상 활동, 지도층.", "condition": "", "action": "", "order": 36, "severity": "", "refs": []}
+{"id": "그림9-1#37", "para_id": "그림9-1", "type": "FACT", "text": "대비 무엇이 바뀌었는가? 예를 들어 건물에 새 자물쇠가 달렸는가? 창문이 판자로 막혔거나, 막혀 있던 창문이 열려 건물의 쓰임새가 바뀌었음을 보여 주는가? 건물에낙서가 생겼는가?", "condition": "", "action": "", "order": 37, "severity": "", "refs": []}
+{"id": "9-3#1", "para_id": "9-3", "type": "FACT", "text": "지휘관은 여러 출처에서 정보를 얻지만 당신이 최고의 출처다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-3#2", "para_id": "9-3", "type": "FACT", "text": "당신은 다음 출처에서 정보를 수집할 수 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-3#3", "para_id": "9-3", "type": "FACT", "text": "적 포로/억류자는 즉각적인 정보원이다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-3#4", "para_id": "9-3", "type": "FACT", "text": "붙잡은 적은 신속히 지휘자에게 넘긴다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-3#5", "para_id": "9-3", "type": "FACT", "text": "그들에게서 알게 된 것도 모두 알린다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-3#6", "para_id": "9-3", "type": "DECISION_RULE", "text": "노획 문서에는 적의 현재 또는 향후 작전에 관한 귀중한 정보가 있을 수 있다.", "condition": "노획 문서에는 적의 현재 또는 향후 작전에", "action": "관한 귀중한 정보가 있을 수 있다.", "order": 6, "severity": "", "refs": []}
+{"id": "9-3#7", "para_id": "9-3", "type": "FACT", "text": "신속히 지휘자에게 넘긴다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-3#8", "para_id": "9-3", "type": "FACT", "text": "노획 장비는 즉각적인 위협을 제거한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-3#9", "para_id": "9-3", "type": "FACT", "text": "신속히 지휘자에게 넘긴다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-3#10", "para_id": "9-3", "type": "FACT", "text": "적의 활동(적이 하는 일)은 흔히 적이 하려는 일을 보여 준다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-3#11", "para_id": "9-3", "type": "FACT", "text": "적이 하는 일은 모두 보고한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-3#12", "para_id": "9-3", "type": "FACT", "text": "당신에게는 중요해 보이지 않는 것도 지휘관에게는 중요할 수 있다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-3#13", "para_id": "9-3", "type": "FACT", "text": "임무 수행 중 피란민·난민·소개민(DPRE)에 대한 전술 질문, 관측, 상호작용으로 중요한 정보를 얻을 수 있다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-3#14", "para_id": "9-3", "type": "EXCEPTION", "text": "그러나 현지 민간인이 특정 지역의 적, 지형, 기상에 대해 가장 많은 정보를 가진 경우가 많다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-3#15", "para_id": "9-3", "type": "FACT", "text": "민간인에게서 얻은 정보는 보고한다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-3#16", "para_id": "9-3", "type": "EXCEPTION", "text": "다만 민간인이 어느 편을 도우려는지 확신할 수 없으므로 그 정보로 행동할 때는 주의한다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-3#17", "para_id": "9-3", "type": "DECISION_RULE", "text": "가능하면 다른 수단으로 확인한다.", "condition": "가능하면", "action": "다른 수단으로 확인한다.", "order": 17, "severity": "", "refs": []}
+{"id": "9-4#1", "para_id": "9-4", "type": "FACT", "text": "질문은 전술 질문이나 직접 질문 방식으로 할 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-4#2", "para_id": "9-4", "type": "FACT", "text": "두 방식은 다음과 같다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-4#3", "para_id": "9-4", "type": "FACT", "text": "전술 질문--전술 질문은 즉각적인 가치가 있는 정보를 얻기 위한 최초의 질문이다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-4#4", "para_id": "9-4", "type": "DECISION_RULE", "text": "주민과의 상호작용에 쓰일 때는 실제로는 질문이라기보다 대화에 가깝다.", "condition": "주민과의 상호작용에 쓰일 때는", "action": "실제로는 질문이라기보다 대화에 가깝다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-4#5", "para_id": "9-4", "type": "FACT", "text": "이 활동은 정보를 수집하고 환경을 이해하는 것만큼이나 신뢰 관계를 쌓도록 설계할 수 있다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-4#6", "para_id": "9-4", "type": "FACT", "text": "전술 질문은 부대 예규, 교전규칙, 해당 임무의 명령에 따라 실시한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-4#7", "para_id": "9-4", "type": "FACT", "text": "지휘자는 해당 임무의 작전명령(OPORD)에 전술 질문에 관한 구체적 지침을 포함해야 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-4#8", "para_id": "9-4", "type": "FACT", "text": "전술 질문으로 보고된 정보는 지휘 계통을 따라 대대·여단 정보참모(S-2) 와 사단 정보참모(G-2)에게 전달되어 향후 계획과 작전의 중요한 부분이 된다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-4#9", "para_id": "9-4", "type": "PROHIBITION", "text": "또한 전술 질문 중에 심문 기법을 시도해서는 안 된다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-4#10", "para_id": "9-4", "type": "FACT", "text": "직접 질문--직접 질문은 정해진 형식에 따라 정확한 질문을 하는 효율적인 방법이다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-4#11", "para_id": "9-4", "type": "FACT", "text": "목표는 최소한의 시간에 최대한의 정보를 얻는 것이다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-4#12", "para_id": "9-4", "type": "FACT", "text": "직접 질문은 서술형 답변을 이끌어 내야 하므로 질문 주제를 분명히 해야 한다(즉, 짧고 단순하되 구체적으로).", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-4#13", "para_id": "9-4", "type": "FACT", "text": "논리적 순서에 따라 각 주제를 명확히 한다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-4#14", "para_id": "9-4", "type": "FACT", "text": "\"예\"나 \"아니오\" 답변을 피하도록 기본 질문을 쓴다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-4#15", "para_id": "9-4", "type": "FACT", "text": "직접 질문은 ES2 전술 질문에 허용된 유일한 기법이다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-4#16", "para_id": "9-4", "type": "PROHIBITION", "text": "훈련받고 자격을 갖춘 심문관이 아닌 병사는 어떤 심문 기법도 시도해서는 안 된다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-4#17", "para_id": "9-4", "type": "DECISION_RULE", "text": "질문받는 사람이 더 이상 정보가 없거나 더 협조할 뜻이 없음이 분명하면 전술 질문을 멈춰야 한다.", "condition": "질문받는 사람이 더 이상 정보가 없거나 더 협조할 뜻이 없음이 분명하면", "action": "전술 질문을 멈춰야 한다.", "order": 17, "severity": "", "refs": []}
+{"id": "9-4#18", "para_id": "9-4", "type": "FACT", "text": "9-5. 작전 지역마다 의 사소통과 작전 수행에 영향을 주는 사회적·지역적 고려 사항(사회적 행동, 관습, 예절 등)이 다르다.", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "9-4#19", "para_id": "9-4", "type": "FACT", "text": "다음안전·문화 고려 사항도 알아야 한다.", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "9-4#20", "para_id": "9-4", "type": "FACT", "text": "작전 지역의 위협 수준과 부대 방호 조치를 안다.", "condition": "", "action": "", "order": 20, "severity": "", "refs": []}
+{"id": "9-4#21", "para_id": "9-4", "type": "FACT", "text": "현지 관습과 예절을 안다.", "condition": "", "action": "", "order": 21, "severity": "", "refs": []}
+{"id": "9-4#22", "para_id": "9-4", "type": "PROHIBITION", "text": "현지인이 무례하다고 여길 수 있는 몸짓을 피한다.", "condition": "", "action": "", "order": 22, "severity": "", "refs": []}
+{"id": "9-4#23", "para_id": "9-4", "type": "FACT", "text": "의심을 사지 않도록 평소 환경에서 사람에게 다가간다.", "condition": "", "action": "", "order": 23, "severity": "", "refs": []}
+{"id": "9-4#24", "para_id": "9-4", "type": "FACT", "text": "친절하고 예의 바르게 행동한다.", "condition": "", "action": "", "order": 24, "severity": "", "refs": []}
+{"id": "9-4#25", "para_id": "9-4", "type": "DECISION_RULE", "text": "좋은 인상을 주려는 사람과 이야기할 때는 선글라스를 벗는다.", "condition": "좋은 인상을 주려는 사람과 이야기할 때는", "action": "선글라스를 벗는다.", "order": 25, "severity": "", "refs": []}
+{"id": "9-4#26", "para_id": "9-4", "type": "FACT", "text": "현지 언어 몇 마디를 포함해 현지 문화를 최대한 많이 안다.", "condition": "", "action": "", "order": 26, "severity": "", "refs": []}
+{"id": "9-4#27", "para_id": "9-4", "type": "DECISION_RULE", "text": "보안 상황이 허락하면 무기를 가장 덜 위협적인 위치로 둔다.", "condition": "보안 상황이 허락하면", "action": "무기를 가장 덜 위협적인 위치로 둔다.", "order": 27, "severity": "", "refs": []}
+{"id": "9-6#1", "para_id": "9-6", "type": "FACT", "text": "정찰이나 기타 주민 접촉으로 수집한 모든 정보는 지휘 계통을 통해 부대 S-2에게 보고된다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-6#2", "para_id": "9-6", "type": "FACT", "text": "S-2 는 부대 정보 과업과 현 임무의 작전명령에 따라 이 정보를 정보 계통을 통해 지원 정보부대에 전달할 책임이 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-6#3", "para_id": "9-6", "type": "FACT", "text": "따라서 모두가 전투 정보 수집에 참여한다면, 모두가 우선정보요구(PIR)를 알아야 한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-6#4", "para_id": "9-6", "type": "FACT", "text": "주민과 접촉하고 작전 지역을 일상적으로 다니는 모든 병사는 CCIR과 관측·보고 책임을 알아야 한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-6#5", "para_id": "9-6", "type": "FACT", "text": "임무 보고의 네 단계는 다음과 같다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-7#1", "para_id": "9-7", "type": "DECISION_RULE", "text": "결정적인 전술 가치가 있는 정보는 아직 정찰 중일 때 즉시 S-2에게 보고한다.", "condition": "결정적인 전술 가치가 있는 정보는 아직 정찰 중일 때", "action": "즉시 S-2에게 보고한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-7#2", "para_id": "9-7", "type": "FACT", "text": "이 보고는 부대 예규가정한 경로로 보낸다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-7#3", "para_id": "9-7", "type": "FACT", "text": "규모·활동·위치·부대·시간·장비(SALUTE) 양식이 1단계 보고의 예다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-8#1", "para_id": "9-8", "type": "DECISION_RULE", "text": "기지로 복귀하면 즉시 정찰대는 사후검토(AAR)를 하고 정찰 보고서를 작성한다.", "condition": "기지로 복귀하면", "action": "즉시 정찰대는 사후검토(AAR)를 하고 정찰 보고서를 작성한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-8#2", "para_id": "9-8", "type": "FACT", "text": "양식은 임무 특유의 정보를 더 충실히 담도록 수정할 수 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-8#3", "para_id": "9-8", "type": "DECISION_RULE", "text": "이 보고서는 정식 결과 보고 전에 S-2에게 전달된다.", "condition": "이 보고서는 정식 결과 보고 전에", "action": "S-2에게 전달된다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-8#4", "para_id": "9-8", "type": "FACT", "text": "이 보고서가 S-2 결과 보고의 기초가 되므로 지휘자는 최대한 완전하고 정확하게 보고해야 한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-9#1", "para_id": "9-9", "type": "FACT", "text": "최초 정찰 보고서를 받은 S-2는 정찰대를 상대로 결과 보고를 받아 세부 사항을 더 확인하고, 정찰 보고서에서 다루지 않은 PIR과 CCIR을 보완한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-10#1", "para_id": "9-10", "type": "FACT", "text": "S-2의 결과 보고 이후 필요에 따라 후속 보고를 제출한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-10.note1#1", "para_id": "9-10.note1", "type": "DECISION_RULE", "text": "모든 정찰이나 활동 전에는 작전 지역의 과거 활동을 종합 요약한 사전 브리핑을 실시한다.", "condition": "모든 정찰이나 활동 전에", "action": "는 작전 지역의 과거 활동을 종합 요약한 사전 브리핑을 실시한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-11#1", "para_id": "9-11", "type": "FACT", "text": "이 네 단계는 S-2가 중요한 세부 사항과 미묘한 세부 사항을 모두 기록·전파하여 종합 분석과 향후 계획에 쓰고 상급 S-2/G-2에게 전달하도록 돕는다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-11#2", "para_id": "9-11", "type": "FACT", "text": "이 정보로 S-2는 폭넓은 정보를 분석하고 그 결과를 당신의 제대와 상급 제대로 다시 전파한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-11#3", "para_id": "9-11", "type": "FACT", "text": "적에 관한 모든 정보는 지휘자에게 신속하고, 정확하고, 완전하게 보고한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-11#4", "para_id": "9-11", "type": "FACT", "text": "보고는 \"언제\" 다음에 \"누가, 무엇을, 어디서\"에 답해야 한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-11#5", "para_id": "9-11", "type": "DECISION_RULE", "text": "보고할 때는 SALUTE 양식을 쓴다.", "condition": "보고할 때는", "action": "SALUTE 양식을 쓴다.", "order": 5, "severity": "", "refs": []}
+{"id": "9-11#6", "para_id": "9-11", "type": "FACT", "text": "세부 사항을 기억할 수 있도록 메모하고 약도를 그린다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-11#7", "para_id": "9-11", "type": "FACT", "text": "표 9-1은 SALUTE 양식 사용법이다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": ["표9-1"]}
+{"id": "표9-1#1", "para_id": "표9-1", "type": "REFERENCE", "text": "표 9-1. SALUTE 양식 항목별 작성법.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["표9-1"]}
+{"id": "표9-1#2", "para_id": "표9-1", "type": "FACT", "text": "줄 번호", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "표9-1#3", "para_id": "표9-1", "type": "FACT", "text": "항목 작성 요령", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "표9-1#4", "para_id": "표9-1", "type": "FACT", "text": "1 (S)ize 규모/누가 수량과 제대 또는 규모로 표현한다. 예: \"소총분대\"가 아니라 \"적 보병 10명\"으로 보고한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "표9-1#5", "para_id": "표9-1", "type": "FACT", "text": "보고하는 활동에 여러 부대가 관련되면 여러 줄로 적을 수 있다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "표9-1#6", "para_id": "표9-1", "type": "FACT", "text": "2 (A)ctivity 활동/무엇을 보고하는 PIR과 연관 지어 간결한 한 문장으로 적는다. 적이 하는 것을 본 그대로 보고한다. 예: \"도로에 지뢰를 매설 중\".", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "표9-1#7", "para_id": "표9-1", "type": "FACT", "text": "3 (L)ocation 위치/어디서", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "표9-1#8", "para_id": "표9-1", "type": "FACT", "text": "보통 격자 좌표이며 100,000m 격자 구역 표시를 포함해야 한다. 적절하면 주소를 써도 되지만 8자리 격자 좌표를 함께 적어야 한다. 전진이나 후퇴처럼 이동을 보고 하면 \"어디서\"와 \"어디로\"를 모두 적는다. 이동 경로는 \"장비/어떻게\" 항목에 적는다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "표9-1#9", "para_id": "표9-1", "type": "FACT", "text": "4 (U)nit 부대/누가 \"활동/무엇을\" 항목의 활동을 하는 주체를 식별한다. 군 부대는 완전한 부대 명칭을, 민간인이나 반군 집단은 이름과 기타 식별 정보·특징을 적는다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "표9-1#10", "para_id": "표9-1", "type": "FACT", "text": "5 (T)ime 시간/언제미래의 일은 활동이 시작될 일시(DTG)를 적는다. 진행 중인 일은 진행 중이라고 보고한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "표9-1#11", "para_id": "표9-1", "type": "FACT", "text": "보고하는 시각이 아니라 적의 활동을 본 시각을 보고한다. 항상 현지 시각 또는 표준시(Z)로 보고한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "표9-1#12", "para_id": "표9-1", "type": "FACT", "text": "6 (E)quipment 장비/어떻게", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "표9-1#13", "para_id": "표9-1", "type": "FACT", "text": "앞 항목을 명확히 하고 보완·확장한다. 관련 장비, 사용한 전술, 앞 줄에서 보고하지 않은 기타 필수 정보요소(EEI)를 적는다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-12#1", "para_id": "9-12", "type": "FACT", "text": "적 문서, 적 포로, 장비를 처리하는 적절한 절차는 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-13#1", "para_id": "9-13", "type": "FACT", "text": "노획 문서란 위협 세력에게서 얻은 모든 기록 정보다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-13#2", "para_id": "9-13", "type": "DECISION_RULE", "text": "보통 적이 만든 것이지만, 한때 적의 손에 있었던 미군이나 다국적군의 문서일 수도 있다.", "condition": "보통 적이 만든 것이지만, 한때", "action": "적의 손에 있었던 미군이나 다국적군의 문서일 수도 있다.", "order": 2, "severity": "", "refs": []}
+{"id": "9-13#3", "para_id": "9-13", "type": "FACT", "text": "노획 문서는 지휘관의 PIR에 답하는 데 결정적인 정보를 주거나, 전체 상황의 작은 조각들을 맞추는 데 활용될 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-14#1", "para_id": "9-14", "type": "DECISION_RULE", "text": "압수하거나 확보한 모든 노획 문서는 적절한 계통으로 넘기기 전에 꼬리표를 달고 기록부에 기록해야 한다.", "condition": "압수하거나 확보한 모든 노획 문서는 적절한 계통으로 넘기기 전에", "action": "꼬리표를 달고 기록부에 기록해야 한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-14#2", "para_id": "9-14", "type": "FACT", "text": "꼬리표에는 해당 물품의 세부 사항을 적고, 기록부는 부대 간 노획 문서의 인계를 추적하는 간단한 송부 문서다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-14#3", "para_id": "9-14", "type": "FACT", "text": "최초 노획 문서 기록부는 지휘자가 작성할 책임이 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-15#1", "para_id": "9-15", "type": "DECISION_RULE", "text": "기재할 정보는 정해진 양식이 있지만, 공식 꼬리표가 없으면 튼튼한 야전 임시 재료를 꼬리표로 써도 된다.", "condition": "기재할 정보는 정해진 양식이 있지만, 공식 꼬리표가 없으면", "action": "튼튼한 야전 임시 재료를 꼬리표로 써도 된다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-15#2", "para_id": "9-15", "type": "FACT", "text": "비닐이나 투명 테이프로 덮어 글씨가 비바람에 지워지지 않게 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-15#3", "para_id": "9-15", "type": "FACT", "text": "꼬리표는 내용이 완전하고 해당 노획 문서에 붙어 있는 것이 중요하다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-15#4", "para_id": "9-15", "type": "FACT", "text": "노획 문서 꼬리표에는 최소한 다음 정보를 적어야 한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-15#5", "para_id": "9-15", "type": "FACT", "text": "작성 요령은 다음과 같다(그림 9-2).", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["그림9-2"]}
+{"id": "9-15#6", "para_id": "9-15", "type": "FACT", "text": "국적--문서를 노획한 부대의 국가를 적는다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-15#7", "para_id": "9-15", "type": "FACT", "text": "일시--노획한 날짜와 시각을 적는다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-15#8", "para_id": "9-15", "type": "FACT", "text": "장소--6~8자리 격자 좌표를 적고 문서를 노획한 장소를 기술한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-15#9", "para_id": "9-15", "type": "FACT", "text": "식별--노획 문서의 출처, 소유자 등을 적는다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-15#10", "para_id": "9-15", "type": "FACT", "text": "경위--노획 문서를 어떻게 얻었는지 기술한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-15#11", "para_id": "9-15", "type": "FACT", "text": "내용--노획 문서를 간단히 기술한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-15#12", "para_id": "9-15", "type": "FACT", "text": "바로 알아볼 수 있을 만큼 충분한 정보를 적는다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "그림9-2#1", "para_id": "그림9-2", "type": "REFERENCE", "text": "그림 9-2. 노획 문서 꼬리표 예.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-2"]}
+{"id": "9-16#1", "para_id": "9-16", "type": "FACT", "text": "적 포로/억류자는 좋은 정보원이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-16#2", "para_id": "9-16", "type": "FACT", "text": "국제법을 어기지 않고, 정보를 얻을 기회를 잃지 않도록 다루어야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-16#3", "para_id": "9-16", "type": "FACT", "text": "적 포로는 인도적으로 대우한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-16#4", "para_id": "9-16", "type": "PROHIBITION", "text": "신체적으로든 정신적으로든 해치지 않는다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-16#5", "para_id": "9-16", "type": "FACT", "text": "그들에 대한 책임은 현장 최선임 병사에게 있다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-16#6", "para_id": "9-16", "type": "DECISION_RULE", "text": "적 포로를 적절한 시간 안에 후송할 수 없으면 음식, 물, 응급처치를 제공한다.", "condition": "적 포로를 적절한 시간 안에 후송할 수 없으면", "action": "음식, 물, 응급처치를 제공한다.", "order": 6, "severity": "", "refs": []}
+{"id": "9-16#7", "para_id": "9-16", "type": "PROHIBITION", "text": "담배, 사탕 등 위안품은 주지 않는다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-16#8", "para_id": "9-16", "type": "FACT", "text": "호의를 받거나 학대받은 포로는 심문 대상으로 적합하지 않다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-16#9", "para_id": "9-16", "type": "DECISION_RULE", "text": "적 포로/억류자를 다룰 때는 수색, 분리, 침묵, 신속, 보호, 꼬리표(5S와 T) 절차를 따른다.", "condition": "적 포로/억류자를 다룰 때는", "action": "수색, 분리, 침묵, 신속, 보호, 꼬리표(5S와 T) 절차를 따른다.", "order": 9, "severity": "", "refs": []}
+{"id": "9-16#10", "para_id": "9-16", "type": "DEFINITION", "text": "이는 미군이 구금하거나 보호하는 사람을 인도적으로 대우해야 할 각 병사의 법적 의무를 뜻한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-16#11", "para_id": "9-16", "type": "FACT", "text": "5S와 T는 다음과 같이 실시한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-16#12", "para_id": "9-16", "type": "FACT", "text": "수색--무기와 문서를 찾기 위해 철저히 몸을 수색한다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-16#13", "para_id": "9-16", "type": "FACT", "text": "적 포로/억류자의 장비와 문서는 따로 수색하고 기록한다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-16#14", "para_id": "9-16", "type": "FACT", "text": "무기, 특수 장비, 문서, 신분증, 개인 소지품의 내역을 포획 꼬리표에 적는다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-16#15", "para_id": "9-16", "type": "FACT", "text": "침묵--적 포로/억류자끼리 말이나 몸짓으로 의사소통하지 못하게 한다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-16#16", "para_id": "9-16", "type": "FACT", "text": "말이 많은 자든 조용한 자든 말썽을 일으킬 만한 자를 주시하고, 분리할 준비를 한다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-16#17", "para_id": "9-16", "type": "FACT", "text": "분리--민간인과 군인을 분리하고, 다시 계급, 성별, 국적, 민족, 종교별로 나눈다.", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "9-16#18", "para_id": "9-16", "type": "FACT", "text": "이 기법은 그들을 조용히 있게 하는 데 도움이 된다.", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "9-16#19", "para_id": "9-16", "type": "FACT", "text": "보호--적 포로/억류자를 경계하고 보호한다.", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "9-16#20", "para_id": "9-16", "type": "DECISION_RULE", "text": "즉각적인 위험에서 벗어나게 하고, 개인 화학 보호 장비가 있으면 계속 지니게 하며 신분증도 지니게 한다.", "condition": "즉각적인 위험에서 벗어나게 하고, 개인 화학 보호 장비가 있으면", "action": "계속 지니게 하며 신분증도 지니게 한다.", "order": 20, "severity": "", "refs": []}
+{"id": "9-16#21", "para_id": "9-16", "type": "DECISION_RULE", "text": "신속--정보는 시간이 지나면 가치가 떨어진다.", "condition": "신속--정보는 시간이 지나면", "action": "가치가 떨어진다.", "order": 21, "severity": "", "refs": []}
+{"id": "9-16#22", "para_id": "9-16", "type": "FACT", "text": "인원을 최대한 빨리 후방으로 보내는 것이 매우 중요하다.", "condition": "", "action": "", "order": 22, "severity": "", "refs": []}
+{"id": "9-16#23", "para_id": "9-16", "type": "FACT", "text": "또 하나 고려할 점은 시간이 지날수록 적 포로/억류자의 질문에 대한 저항이 커진다는 것이다.", "condition": "", "action": "", "order": 23, "severity": "", "refs": []}
+{"id": "9-16#24", "para_id": "9-16", "type": "FACT", "text": "붙잡히거나 억류된 처음의 충격이 사라지면 탈출을 생각하기 시작한다.", "condition": "", "action": "", "order": 24, "severity": "", "refs": []}
+{"id": "9-16.note1#1", "para_id": "9-16.note1", "type": "DECISION_RULE", "text": "정보의 가치는 몇 시간 만에 떨어지므로 이 경우 신속성이 결정적이다.", "condition": "정보의 가치는 몇 시간 만에 떨어지므로 이 경우", "action": "신속성이 결정적이다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-16.note1#2", "para_id": "9-16.note1", "type": "FACT", "text": "적절한 시간과 수단을 갖춘 훈련된 인간정보(HUMINT) 병사가 이들을 선별·심문하기 위해 기다리고 있을 것이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-17#1", "para_id": "9-17", "type": "FACT", "text": "철사, 끈 등 튼튼한 재료로 DD 서식 2745 적 포로 포획 꼬리표의 A부, 또는 야전 임시 대용품을 억류자의 옷에 단다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-17#2", "para_id": "9-17", "type": "FACT", "text": "꼬리표를 떼거나 고치지 말라고 말한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-17#3", "para_id": "9-17", "type": "FACT", "text": "압수한 물품에도 꼬리표를 단다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-17#4", "para_id": "9-17", "type": "FACT", "text": "각 꼬리표에는 다음을 적되, 물품과 그것을 압수한 사람이 분명히 연결되도록 기록한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-17#5", "para_id": "9-17", "type": "FACT", "text": "포획 일시.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-17#6", "para_id": "9-17", "type": "FACT", "text": "포획 위치(격자 좌표).", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-17#7", "para_id": "9-17", "type": "FACT", "text": "포획 부대.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-17#8", "para_id": "9-17", "type": "FACT", "text": "포획 경위(억류한 이유).", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-17#9", "para_id": "9-17", "type": "FACT", "text": "누가?", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-17#10", "para_id": "9-17", "type": "FACT", "text": "무엇을?", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-17#11", "para_id": "9-17", "type": "FACT", "text": "어디서?", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-17#12", "para_id": "9-17", "type": "FACT", "text": "왜?", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-17#13", "para_id": "9-17", "type": "FACT", "text": "목격자는?", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-18#1", "para_id": "9-18", "type": "FACT", "text": "작전보안(OPSEC)은 지휘자가 아군 핵심 정보요소(EEFI)를 식별하고 보호하는 절차다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-18#2", "para_id": "9-18", "type": "DECISION_RULE", "text": "육군은 EEFI를, 적이 알게 되면 작전을 노출시키거나 실패하게 하거나 성공을 제한하므로 탐지되지 않게 보호해야 하는 아군 작전의 핵심 사항으로 정의한다.", "condition": "육군은 EEFI를, 적이 알게 되면", "action": "작전을 노출시키거나 실패하게 하거나 성공을 제한하므로 탐지되지 않게 보호해야 하는 아군 작전의 핵심 사항으로 정의한다.", "order": 2, "severity": "", "refs": []}
+{"id": "9-18#3", "para_id": "9-18", "type": "FACT", "text": "모든 병사는 부대 방호의 일환으로 작전보안 조치를 이행한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-18#4", "para_id": "9-18", "type": "FACT", "text": "효과적인 작전보안은 그 조치가 왜 중요하고 무엇을 이루려는 것인지 병사에게 정확히 알려 주는 데서 시작한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-18#5", "para_id": "9-18", "type": "FACT", "text": "작전보안 실패의 대가는 인명 손실일 수 있음을 이해해야 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-18#6", "para_id": "9-18", "type": "DECISION_RULE", "text": "왜 그 일을 하고 그 행동이 무엇을 이루려는지 이해하면 당신과 전우는 과업을 더 효과적으로 수행할 수 있다.", "condition": "왜 그 일을 하고 그 행동이 무엇을 이루려는지 이해하면", "action": "당신과 전우는 과업을 더 효과적으로 수행할 수 있다.", "order": 6, "severity": "", "refs": []}
+{"id": "9-18#7", "para_id": "9-18", "type": "FACT", "text": "이를 위해 당신과 전우는 다음을 지켜야 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-18#8", "para_id": "9-18", "type": "PROHIBITION", "text": "전투 지역에 개인 편지나 사진을 가져가지 않는다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-18#9", "para_id": "9-18", "type": "PROHIBITION", "text": "전투 지역에서 일기를 쓰지 않는다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-18#10", "para_id": "9-18", "type": "FACT", "text": "위장 원칙과 기법을 실천한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-18#11", "para_id": "9-18", "type": "FACT", "text": "소음·등화 통제를 실천한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-18#12", "para_id": "9-18", "type": "FACT", "text": "야전 위생을 실천한다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-18#13", "para_id": "9-18", "type": "FACT", "text": "올바른 무선전화 절차를 사용한다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-18#14", "para_id": "9-18", "type": "FACT", "text": "수하와 암구호를 올바르게 사용한다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-18#15", "para_id": "9-18", "type": "FACT", "text": "(포로가 되면) 행동 강령을 지킨다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-18#16", "para_id": "9-18", "type": "FACT", "text": "적과 함께하거나 적에게 동조한다고 생각되는 병사나 민간인을 보고한다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-18#17", "para_id": "9-18", "type": "DECISION_RULE", "text": "미군 작전에 관한 정보를 얻으려는 사람을 보고한다.", "condition": "미군 작전에", "action": "관한 정보를 얻으려는 사람을 보고한다.", "order": 17, "severity": "", "refs": []}
+{"id": "9-18#18", "para_id": "9-18", "type": "DECISION_RULE", "text": "포획이 임박하면 지도와 중요 문서를 모두 파기한다.", "condition": "포획이 임박하면", "action": "지도와 중요 문서를 모두 파기한다.", "order": 18, "severity": "", "refs": []}
+{"id": "9-18#19", "para_id": "9-18", "type": "PROHIBITION", "text": "공공장소에서 군사 작전을 이야기하지 않는다.", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "9-18#20", "para_id": "9-18", "type": "FACT", "text": "알 필요가 있는 사람하고만 군사 작전을 이야기한다.", "condition": "", "action": "", "order": 20, "severity": "", "refs": []}
+{"id": "9-18#21", "para_id": "9-18", "type": "FACT", "text": "전우에게 작전보안 책임을 상기시킨다.", "condition": "", "action": "", "order": 21, "severity": "", "refs": []}
+{"id": "9-19#1", "para_id": "9-19", "type": "DECISION_RULE", "text": "모든 작전에서 당신은 적을 찾게 된다.", "condition": "모든 작전에", "action": "서 당신은 적을 찾게 된다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-19#2", "para_id": "9-19", "type": "EXCEPTION", "text": "그러나 관측소에 배치되어 적 활동을 감시해야 할 때도 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-19#3", "para_id": "9-19", "type": "FACT", "text": "관측소란 할당된 관측 구역을 감시하고 그 구역에서 보거나 들은 모든 활동을 보고하는 위치다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-20#1", "para_id": "9-20", "type": "FACT", "text": "주간에는 육안 탐색 기법으로 지형을 탐색한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-20#2", "para_id": "9-20", "type": "FACT", "text": "다음 탐색 기법으로 적의 활동을 육안으로 찾아내고 주변 지형지물과 구별해야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-20#3", "para_id": "9-20", "type": "FACT", "text": "신속 탐색--명백한 적 활동 징후를 찾는 데 쓴다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-20#4", "para_id": "9-20", "type": "FACT", "text": "보통 가장 먼저 쓰는 방법이다 (그림 9-3).", "condition": "", "action": "", "order": 4, "severity": "", "refs": ["그림9-3"]}
+{"id": "9-20#5", "para_id": "9-20", "type": "FACT", "text": "신속 탐색 요령은 다음과 같다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-20#6", "para_id": "9-20", "type": "FACT", "text": "깊이 약 100m의 지형 띠를 왼쪽에서 오른쪽으로 짧게 멈추며 탐색한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-20#7", "para_id": "9-20", "type": "FACT", "text": "더 먼 100m 띠를 첫 띠와 겹치게 하여 오른쪽에서 왼쪽으로 짧게 멈추며 탐색한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-20#8", "para_id": "9-20", "type": "FACT", "text": "사계 전체를 탐색할 때까지 이 방법을 계속한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-20#9", "para_id": "9-20", "type": "FACT", "text": "저속 탐색--저속 탐색은 신속 탐색과 같은 방식이지만 훨씬 신중하게, 즉 더 느리게 좌우로 움직이고 더 자주 멈춘다(그림 9-5).", "condition": "", "action": "", "order": 9, "severity": "", "refs": ["그림9-5"]}
+{"id": "9-20#10", "para_id": "9-20", "type": "DECISION_RULE", "text": "정밀 탐색--신속·저속 탐색으로 표적을 찾지 못하면 M22 쌍안경으로 표적 지역을 세밀하게 탐색한다.", "condition": "정밀 탐색--신속·저속 탐색으로 표적을 찾지 못하면", "action": "M22 쌍안경으로 표적 지역을 세밀하게 탐색한다.", "order": 10, "severity": "", "refs": []}
+{"id": "9-20#11", "para_id": "9-20", "type": "FACT", "text": "정밀 탐색은 저속 탐색과 비슷하지만, 더 작은 구역을 자주 멈추며 아주 조금씩 이동하며 탐색한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-20#12", "para_id": "9-20", "type": "FACT", "text": "정밀 탐색은 신속·저속 탐색보다 더욱, 큰 구역을 작은 구역으로 나누어 빠짐없이 세밀하게 살피고 적이 있을 만한 진지를 놓치지 않는 데 달려 있다(그림 9-4).", "condition": "", "action": "", "order": 12, "severity": "", "refs": ["그림9-4"]}
+{"id": "9-20#13", "para_id": "9-20", "type": "FACT", "text": "다음에 주의해야 한다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-20#14", "para_id": "9-20", "type": "FACT", "text": "적이 있을 만한 진지와 예상되는 차량·도보 접근로.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-20#15", "para_id": "9-20", "type": "FACT", "text": "두드러진 지형지물 근처에 있는 도로 교차점, 언덕, 외딴 건물 같은 표적 징후.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-20#16", "para_id": "9-20", "type": "FACT", "text": "수목선이나 골짜기처럼 엄폐·은폐가 있는 지역.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "그림9-3#1", "para_id": "그림9-3", "type": "REFERENCE", "text": "그림 9-3. 신속/저속 탐색 형태.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-3"]}
+{"id": "그림9-4#1", "para_id": "그림9-4", "type": "REFERENCE", "text": "그림 9-4. 정밀 탐색.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-4"]}
+{"id": "9-21#1", "para_id": "9-21", "type": "DECISION_RULE", "text": "야간 작전에는 분명한 이점이 있지만 어렵기도 하다.", "condition": "야간 작전에", "action": "는 분명한 이점이 있지만 어렵기도 하다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-21#2", "para_id": "9-21", "type": "FACT", "text": "야간에는 눈이 낮만큼 기능하지 못하지만, 눈은 임무 수행에 결정적이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-21#3", "para_id": "9-21", "type": "FACT", "text": "감각 입력의 80%가 눈을 통해 들어오므로, 야간에 눈이 주는 제약을 알아야 한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-21#4", "para_id": "9-21", "type": "FACT", "text": "선명한 상을 보는 능력이 크게 떨어진다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-22#1", "para_id": "9-22", "type": "DEFINITION", "text": "암순응이란 낮은 조도에 대한 눈의 감도를 높이는 신체 과정이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-22#2", "para_id": "9-22", "type": "FACT", "text": "어둠에 적응하는 정도와 속도는 다양하다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-22#3", "para_id": "9-22", "type": "DECISION_RULE", "text": "어둠 속 처음 30분 동안 눈의 감도는 약 10,000배 높아진다.", "condition": "어둠 속 처음 30분 동안", "action": "눈의 감도는 약 10,000배 높아진다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-22#4", "para_id": "9-22", "type": "DECISION_RULE", "text": "성냥, 손전등, 조명탄, 차량 전조등 같은 밝은 빛에 노출되면 암순응이 영향을 받으며, 완전히 회복하는 데 최대 45분이 걸린다.", "condition": "성냥, 손전등, 조명탄, 차량 전조등 같은 밝은 빛에 노출되면", "action": "암순응이 영향을 받으며, 완전히 회복하는 데 최대 45분이 걸린다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-22#5", "para_id": "9-22", "type": "FACT", "text": "야간에는 색 인식이 떨어진다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-22#6", "para_id": "9-22", "type": "FACT", "text": "반사광의 세기에 따라 밝은 색과 어두운 색 정도는 구별할 수 있다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-22#7", "para_id": "9-22", "type": "FACT", "text": "야간에는 빨강·주황 같은 밝은 난색이 잘 보이지 않고 어둡게 보인다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-22#8", "para_id": "9-22", "type": "FACT", "text": "실제로 빨강은 야간에 거의 보이지 않는다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-22#9", "para_id": "9-22", "type": "DECISION_RULE", "text": "어두운 색은 양쪽이 밝은 색으로 둘러싸여 있지 않으면 보이지 않는다.", "condition": "어두운 색은 양쪽이 밝은 색으로 둘러싸여 있지 않으면", "action": "보이지 않는다.", "order": 9, "severity": "", "refs": []}
+{"id": "9-22#10", "para_id": "9-22", "type": "DECISION_RULE", "text": "반면 초록과 파랑은 색을 구별하지 못하더라도 더 밝게 보인다.", "condition": "반면", "action": "초록과 파랑은 색을 구별하지 못하더라도 더 밝게 보인다.", "order": 10, "severity": "", "refs": []}
+{"id": "9-22#11", "para_id": "9-22", "type": "FACT", "text": "야간 시력은 주간의 7분의 1이므로 크고 덩어리진 물체만 보이며, 물체를 전체 형태나 윤곽으로 알아봐야 한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-22#12", "para_id": "9-22", "type": "DECISION_RULE", "text": "작전 지역의 흔한 건물 구조를 알면 형태나 실루엣을 판단하는 데 도움이 된다.", "condition": "작전 지역의 흔한 건물 구조를 알면", "action": "형태나 실루엣을 판단하는 데 도움이 된다.", "order": 12, "severity": "", "refs": []}
+{"id": "9-22#13", "para_id": "9-22", "type": "FACT", "text": "어둠은 거리 감각도 떨어뜨린다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-22#14", "para_id": "9-22", "type": "FACT", "text": "정상 맹점--정상 맹점은 밤낮으로 늘 있다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-22#15", "para_id": "9-22", "type": "FACT", "text": "시신경이 눈 뒤쪽에 연결되는 곳에 시세포가 없어서 생긴다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-22#16", "para_id": "9-22", "type": "DECISION_RULE", "text": "정상 맹점은 한쪽 눈만 쓸 때 나타난다.", "condition": "정상 맹점은 한쪽 눈만 쓸 때", "action": "나타난다.", "order": 16, "severity": "", "refs": []}
+{"id": "9-22#17", "para_id": "9-22", "type": "DECISION_RULE", "text": "다른 눈을 감으면 보는 곳에서 12~15도 떨어진 물체가 사라진다.", "condition": "다른 눈을 감으면", "action": "보는 곳에서 12~15도 떨어진 물체가 사라진다.", "order": 17, "severity": "", "refs": []}
+{"id": "9-22#18", "para_id": "9-22", "type": "DECISION_RULE", "text": "눈을 다시 뜨면 물체가 다시 보인다.", "condition": "눈을 다시 뜨면", "action": "물체가 다시 보인다.", "order": 18, "severity": "", "refs": []}
+{"id": "9-22#19", "para_id": "9-22", "type": "DECISION_RULE", "text": "야간 맹점--야간에 별빛이나 그보다 어두운 조명에서 물체를 응시하면 물체가 사라지거나 흐려질 수 있다.", "condition": "야간 맹점--야간에 별빛이나 그보다 어두운 조명에서 물체를 응시하면", "action": "물체가 사라지거나 흐려질 수 있다.", "order": 19, "severity": "", "refs": []}
+{"id": "9-22#20", "para_id": "9-22", "type": "FACT", "text": "이것이 야간 맹점 때문이다.", "condition": "", "action": "", "order": 20, "severity": "", "refs": []}
+{"id": "9-22#21", "para_id": "9-22", "type": "DECISION_RULE", "text": "두 눈의 중심 시야를 쓸 때 두 눈에 동시에 나타난다.", "condition": "두 눈의 중심 시야를 쓸 때", "action": "두 눈에 동시에 나타난다.", "order": 21, "severity": "", "refs": []}
+{"id": "9-22#22", "para_id": "9-22", "type": "FACT", "text": "그 결과 거리가 멀어질수록 더 큰 물체를 놓치게 된다.", "condition": "", "action": "", "order": 22, "severity": "", "refs": []}
+{"id": "9-22#23", "para_id": "9-22", "type": "DECISION_RULE", "text": "야간 맹점을 피하려면 찾거나 따라가려는 물체의 주변을 두루 본다.", "condition": "야간 맹점을 피하려면", "action": "찾거나 따라가려는 물체의 주변을 두루 본다.", "order": 23, "severity": "", "refs": []}
+{"id": "9-22#24", "para_id": "9-22", "type": "PROHIBITION", "text": "응시하지 않는다.", "condition": "", "action": "", "order": 24, "severity": "", "refs": []}
+{"id": "9-22#25", "para_id": "9-22", "type": "FACT", "text": "이것이 야간 시력을 최대한 살리는 유일한 방법이다.", "condition": "", "action": "", "order": 25, "severity": "", "refs": []}
+{"id": "9-23#1", "para_id": "9-23", "type": "FACT", "text": "야간 관측 기법은 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-23#2", "para_id": "9-23", "type": "FACT", "text": "암순응 기법--먼저 눈을 어둠에 적응시킨다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-23#3", "para_id": "9-23", "type": "FACT", "text": "어두운 곳에 약 30분 있거나, 적색등 아래에 약 20분 있다가 어두운 곳에 약 10분 있는다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-23#4", "para_id": "9-23", "type": "DECISION_RULE", "text": "적색등 방법을 쓰면 어둠 속으로 들어가기 전에 명령을 받거나 장비를 점검하는 등 다른 일을 할 수 있어 시간을 아낄 수 있다.", "condition": "적색등 방법을 쓰면", "action": "어둠 속으로 들어가기 전에 명령을 받거나 장비를 점검하는 등 다른 일을 할 수 있어 시간을 아낄 수 있다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-23#5", "para_id": "9-23", "type": "FACT", "text": "야간 탐색--암순응은 야간 시력을 최대한 활용하기 위한 첫 단계일 뿐이다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-23#6", "para_id": "9-23", "type": "FACT", "text": "탐색을 통해 눈의 여러 생리적 한계를 극복할 수 있다(그림 9-5).", "condition": "", "action": "", "order": 6, "severity": "", "refs": ["그림9-5"]}
+{"id": "9-23#7", "para_id": "9-23", "type": "FACT", "text": "혼란스러운 착시나 눈의 착각도 줄일 수 있다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-23#8", "para_id": "9-23", "type": "FACT", "text": "이 기법은 오른쪽에서 왼쪽으로, 또는 왼쪽에서 오른쪽으로 천천히 일정하게 훑어보는 것이다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-23#9", "para_id": "9-23", "type": "DECISION_RULE", "text": "야간에 희미하게 보이는 물체를 확인하려 할 때는 그 물체를 똑바로 쳐다보지 않는 것이 중요하다.", "condition": "야간에 희미하게 보이는 물체를 확인하려 할 때는", "action": "그 물체를 똑바로 쳐다보지 않는 것이 중요하다.", "order": 9, "severity": "", "refs": []}
+{"id": "9-23#10", "para_id": "9-23", "type": "FACT", "text": "주변시--야간에는 중심시로 물체를 보는 기법이 효과가 없다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-23#11", "para_id": "9-23", "type": "FACT", "text": "이 역시 낮은 조도에서 생기는 야간 맹점 때문이다(그림 9-6).", "condition": "", "action": "", "order": 11, "severity": "", "refs": ["그림9-6"]}
+{"id": "9-23#12", "para_id": "9-23", "type": "FACT", "text": "주변시를 쓰는 법을 익혀야 한다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-23#13", "para_id": "9-23", "type": "FACT", "text": "이 기법은 물체를 똑바로 보지 않고 물체의 위·아래·좌·우 10도 지점을 보는 것이다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-23#14", "para_id": "9-23", "type": "FACT", "text": "마름모 보기도 매우 비슷한데, 보려는 물체 주위를 마름모꼴로 몇 도씩 눈을 살짝 옮기는 것이다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-23#15", "para_id": "9-23", "type": "EXCEPTION", "text": "그러나 2~3초 이상 보면 물체의 상이 바래져 한 가지 톤이 된다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-23#16", "para_id": "9-23", "type": "FACT", "text": "주변시를 쓰는 데 머리를 움직일 필요는 없다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-23#17", "para_id": "9-23", "type": "FACT", "text": "주변의 한 지점에서 다른 지점으로 눈을 옮겨 가며 주변 시야에서 계속 물체를 잡을 수 있다.", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "그림9-5#1", "para_id": "그림9-5", "type": "REFERENCE", "text": "그림 9-5. 일반적인 탐색 형태.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-5"]}
+{"id": "그림9-6#1", "para_id": "그림9-6", "type": "REFERENCE", "text": "그림 9-6. 주변시로 보기.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-6"]}
+{"id": "9-24#1", "para_id": "9-24", "type": "FACT", "text": "야간 전투력을 높이는 세 가지 장비는 야간투시장비(NVD), 열상 조준경, 조준 레이저다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-24#2", "para_id": "9-24", "type": "FACT", "text": "각 장비는 단순한 에너지인 적외선(IR) 스펙트럼을 서로 다르게 보여 준다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-24#3", "para_id": "9-24", "type": "FACT", "text": "전자기 스펙트럼은 단순히 에너지 (빛)다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-24#4", "para_id": "9-24", "type": "DECISION_RULE", "text": "이 장비들을 제대로 운용하려면 적외선 영역에서 어떻게 작동하는지, 그리고 전자기(빛) 스펙트럼을 알아야 한다.", "condition": "이 장비들을 제대로 운용하려면", "action": "적외선 영역에서 어떻게 작동하는지, 그리고 전자기(빛) 스펙트럼을 알아야 한다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-24#5", "para_id": "9-24", "type": "FACT", "text": "각 장비의 장단점도 알아야 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-24#6", "para_id": "9-24", "type": "FACT", "text": "그래야만 언제 어떤 장비를 쓸지 알 수 있다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-24#7", "para_id": "9-24", "type": "FACT", "text": "영상증폭 장비--영상증폭기는 주변광을 모아 전자적으로 수천 배 증폭하여, 야간투시경(NVG)으로 전장을 볼 수 있게 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-24#8", "para_id": "9-24", "type": "FACT", "text": "주변광은 별, 달, 또는 도시 같은 먼 인공 광원의 하늘빛에서 온다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-24#9", "para_id": "9-24", "type": "FACT", "text": "사람은 이 빛 스펙트럼의 일부만 맨눈으로 볼 수 있다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-24#10", "para_id": "9-24", "type": "FACT", "text": "가시광선의 빨강 바로 너머에 적외선이 있으며, 근적외선·중적외선·원적외선의 세 영역으로 나뉜다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-24#11", "para_id": "9-24", "type": "FACT", "text": "지휘자는 능동 조명 없이 영상증폭기만으로 전투 임무를 수행할 수 있다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-24#12", "para_id": "9-24", "type": "FACT", "text": "야간투시장비로서 영상증폭기의 주요 장점은 작은 크기, 가벼운 무게, 낮은 전력 소모다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-24#13", "para_id": "9-24", "type": "FACT", "text": "영상증폭기는 시야를 적외선 영역까지 넓혀 준다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-24#14", "para_id": "9-24", "type": "FACT", "text": "주변광과 근적외선 영역의 에너지에 의존하며, 이 에너지는 달빛, 별빛, 도시 불빛 같은 자연·인공 광원에서 나온다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-24#15", "para_id": "9-24", "type": "FACT", "text": "영상증폭기의 종류는 다음과 같다(그림 9-7).", "condition": "", "action": "", "order": 15, "severity": "", "refs": ["그림9-7"]}
+{"id": "9-24#16", "para_id": "9-24", "type": "FACT", "text": "AN/PVS-7A/B/C/D.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-24#17", "para_id": "9-24", "type": "FACT", "text": "AN/PVS-14.", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "그림9-7#1", "para_id": "그림9-7", "type": "REFERENCE", "text": "그림 9-7. AN/PVS-7과 AN/PVS-14.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-7"]}
+{"id": "9-25#1", "para_id": "9-25", "type": "FACT", "text": "적외선을 이용하는 두 번째 장비는 열영상 장비다(그림 9-8).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-8"]}
+{"id": "9-25#2", "para_id": "9-25", "type": "FACT", "text": "이 장비는 사람과 인공물에서 나오는 전자기 복사(열)를 감지하여 전자 영상으로 바꾼다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-25#3", "para_id": "9-25", "type": "FACT", "text": "열영상 장비는 주변광의 밝기와 관계없이 똑같이 작동한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-25#4", "para_id": "9-25", "type": "FACT", "text": "열상 조준경(TWS)은 중적외선~원적외선 영역에서 작동한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-25#5", "para_id": "9-25", "type": "FACT", "text": "마찰, 연소, 또는 자연 열에너지를 방출하는 모든 물체에서 나오는 적외선을 감지한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-25#6", "para_id": "9-25", "type": "FACT", "text": "TWS 등 열영상 장비는 중·원적외선 영역에서 작동하므로 영상증폭기와 함께 쓸 수 없다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-25#7", "para_id": "9-25", "type": "FACT", "text": "열영상 장비는 화기에 장착하거나 손에 들고 쓸 수 있다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "9-25#8", "para_id": "9-25", "type": "FACT", "text": "TWS는 밤낮으로 잘 작동하며, 안개, 연무, 일반 전장 연막 속에서도 표적 획득 능력이 뛰어나다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-25#9", "para_id": "9-25", "type": "FACT", "text": "AN/PAS-13(V1) 경화기 열상 조준경(LWTS).", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-25#10", "para_id": "9-25", "type": "FACT", "text": "M16·M4 계열 소총 및 카빈", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "9-25#11", "para_id": "9-25", "type": "FACT", "text": "M136(AT4) 경대전차화기", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "9-25#12", "para_id": "9-25", "type": "FACT", "text": "AN/PAS-13(V2) 중화기 열상 조준경(MWTS)", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "9-25#13", "para_id": "9-25", "type": "FACT", "text": "M249 기관총", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "9-25#14", "para_id": "9-25", "type": "FACT", "text": "M240B 계열 중기관총", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "9-25#15", "para_id": "9-25", "type": "FACT", "text": "AN/PAS-13(V3) 대구경 화기 열상 조준경(HWTS)", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "9-25#16", "para_id": "9-25", "type": "FACT", "text": "M24 저격소총", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "9-25#17", "para_id": "9-25", "type": "FACT", "text": "M107 저격소총", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "9-25#18", "para_id": "9-25", "type": "FACT", "text": "M2(50구경) 중기관총", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "9-25#19", "para_id": "9-25", "type": "FACT", "text": "MK 19 고속유탄기관총", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "그림9-8#1", "para_id": "그림9-8", "type": "REFERENCE", "text": "그림 9-8. AN/PAS-13, V1, V2, V3.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-8"]}
+{"id": "9-26#1", "para_id": "9-26", "type": "FACT", "text": "조준 레이저인 AN/PAQ-4 계열과 AN/PEQ-2A(그림 9-9)도 전자기 스펙트럼 중 특히 근적외선 영역에서 작동한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-9"]}
+{"id": "9-26#2", "para_id": "9-26", "type": "FACT", "text": "[이 레이저는] 영상증폭 장비로 보인다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-26#3", "para_id": "9-26", "type": "FACT", "text": "TWS는 중적외선~원적외선 스펙트럼에서 작동하므로 조준 레이저는 TWS와 함께 쓸 수 없다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "그림9-9#1", "para_id": "그림9-9", "type": "REFERENCE", "text": "그림 9-9. AN/PAQ-4 계열과 AN/PEQ-2A.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-9"]}
+{"id": "9-27#1", "para_id": "9-27", "type": "DECISION_RULE", "text": "최선의 영상을 얻으려면 영상증폭기를 올바르게 조정해야 한다.", "condition": "최선의 영상을 얻으려면", "action": "영상증폭기를 올바르게 조정해야 한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-27#2", "para_id": "9-27", "type": "FACT", "text": "조준 레이저는 맨눈으로 보이지 않으며 영상증폭 장비로만 볼 수 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-27#3", "para_id": "9-27", "type": "FACT", "text": "이 장비들의 작동 원리를 알고 올바르게 조정해야 보이는 영상의 품질을 최대로 높일 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-28#1", "para_id": "9-28", "type": "FACT", "text": "야간투시장비의 시야각은 40도라서 보통 사수는 쉬운 기회 표적, 흔히 좌우 50m 표적을 놓친다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-28#2", "para_id": "9-28", "type": "FACT", "text": "사계 안의 표적을 적극적으로 탐색하도록 훈련해야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-28#3", "para_id": "9-28", "type": "FACT", "text": "야간 표적 탐지 능력은 연습한 만큼만 나온다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-28#4", "para_id": "9-28", "type": "DECISION_RULE", "text": "탐색 중규칙적으로 눈을 깜박이면 먼 표적을 찾으려는 눈의 피로가 다소 풀리며, 이는 훈련 중에 강조해야 한다.", "condition": "탐색 중규칙적으로 눈을 깜박이면", "action": "먼 표적을 찾으려는 눈의 피로가 다소 풀리며, 이는 훈련 중에 강조해야 한다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-28#5", "para_id": "9-28", "type": "DECISION_RULE", "text": "탐색에 숙달되면 표적의 깜빡임이나 움직임을 알아채어 표적을 더 쉽게 탐지하게 된다.", "condition": "탐색에 숙달되면", "action": "표적의 깜빡임이나 움직임을 알아채어 표적을 더 쉽게 탐지하게 된다.", "order": 5, "severity": "", "refs": []}
+{"id": "9-29#1", "para_id": "9-29", "type": "DECISION_RULE", "text": "표적을 찾으면 조준 레이저가 어디를 가리키는지 알아야 한다.", "condition": "표적을 찾으면", "action": "조준 레이저가 어디를 가리키는지 알아야 한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-29#2", "para_id": "9-29", "type": "FACT", "text": "레이저 위치 인식이 필요하다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-29#3", "para_id": "9-29", "type": "DECISION_RULE", "text": "레이저를 켰는데 표적 위 하늘을 가리키고 있으면 레이저가 정확히 어디를 가리키는지 찾느라 귀중한 시간을 낭비한다.", "condition": "레이저를 켰는데 표적 위 하늘을 가리키고 있으면", "action": "레이저가 정확히 어디를 가리키는지 찾느라 귀중한 시간을 낭비한다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-29#4", "para_id": "9-29", "type": "FACT", "text": "또 적에게 탐지되어 사격받을 가능성도 커진다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-29#5", "para_id": "9-29", "type": "DECISION_RULE", "text": "표적과 교전할 때는 레이저를 표적 바로 앞 지면에 겨누고, 지면을 따라 표적 위로 레이저를 옮겨 몸통 중앙에 이르면 교전한다.", "condition": "표적과 교전할 때는", "action": "레이저를 표적 바로 앞 지면에 겨누고, 지면을 따라 표적 위로 레이저를 옮겨 몸통 중앙에 이르면 교전한다.", "order": 5, "severity": "", "refs": []}
+{"id": "9-29#6", "para_id": "9-29", "type": "FACT", "text": "레이저를 표적까지 옮겨 가는 것은 조준 레이저로 적과 교전하는 빠르고 작전보안상 안전한 방법이다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-30#1", "para_id": "9-30", "type": "DECISION_RULE", "text": "표적을 찾아 조준 레이저로 교전했으면 레이저를 꺼야 한다.", "condition": "표적을 찾아 조준 레이저로 교전했으면", "action": "레이저를 꺼야 한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-30#2", "para_id": "9-30", "type": "DEFINITION", "text": "사격장에서 적외선 통제란 레이저를 끈 채 적극적으로 탐색하는 것이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-30#3", "para_id": "9-30", "type": "DECISION_RULE", "text": "표적을 찾으면 레이저를 표적까지 옮겨 교전한다.", "condition": "표적을 찾으면", "action": "레이저를 표적까지 옮겨 교전한다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-30#4", "para_id": "9-30", "type": "DECISION_RULE", "text": "교전이 끝나면 레이저를 끈다.", "condition": "교전이 끝나면", "action": "레이저를 끈다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-31#1", "para_id": "9-31", "type": "FACT", "text": "병사는 거리를 자주 측정해야 한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-31#2", "para_id": "9-31", "type": "FACT", "text": "거리를 정확히 판단하고 지형 약도나 사거리 카드를 작성해야 한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-31#3", "para_id": "9-31", "type": "DECISION_RULE", "text": "여러 거리 측정 기법을 알면 측정이 쉽고 정확해진다.", "condition": "여러 거리 측정 기법을 알면", "action": "측정이 쉽고 정확해진다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-32#1", "para_id": "9-32", "type": "FACT", "text": "거리 측정에 영향을 주는 세 가지 요소는 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-32#2", "para_id": "9-32", "type": "FACT", "text": "윤곽 ............................... 집처럼 윤곽이 규칙적인 물체는 나무 덤불처럼", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-32#3", "para_id": "9-32", "type": "FACT", "text": "윤곽이 불규칙한 물체보다 가까워 보인다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-32#4", "para_id": "9-32", "type": "FACT", "text": "대비 ............................. 배경과 대비되는 표적은 실제보다", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-32#5", "para_id": "9-32", "type": "FACT", "text": "가까워 보인다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-32#6", "para_id": "9-32", "type": "FACT", "text": "노출 ........................... 일부만 노출된 표적은 실제보다 멀어 보인다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-32#7", "para_id": "9-32", "type": "DECISION_RULE", "text": "굴곡 지형 .............. 굴곡 지형 너머를 보면 물체가 더 멀어 보인다.", "condition": "굴곡 지형 .............. 굴곡 지형 너머를 보면", "action": "물체가 더 멀어 보인다.", "order": 7, "severity": "", "refs": []}
+{"id": "9-32#8", "para_id": "9-32", "type": "FACT", "text": "평탄 지형 ................... 모래, 물, 눈처럼 평탄한 지형 너머를 보면", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "9-32#9", "para_id": "9-32", "type": "FACT", "text": "먼 물체가 더 가까워 보인다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-32#10", "para_id": "9-32", "type": "DECISION_RULE", "text": "내리막 ............................. 물체를 내려다보면 더 멀어 보인다.", "condition": "내리막 ............................. 물체를 내려다보면", "action": "더 멀어 보인다.", "order": 10, "severity": "", "refs": []}
+{"id": "9-32#11", "para_id": "9-32", "type": "DECISION_RULE", "text": "오르막 ................................. 물체를 올려다보면 더 가까워 보인다.", "condition": "오르막 ................................. 물체를 올려다보면", "action": "더 가까워 보인다.", "order": 11, "severity": "", "refs": []}
+{"id": "9-32#12", "para_id": "9-32", "type": "DECISION_RULE", "text": "관측자 뒤에 해 ......... 앞에서 빛을 받는 물체는 더 가까워 보인다.", "condition": "관측자 뒤에", "action": "해 ......... 앞에서 빛을 받는 물체는 더 가까워 보인다.", "order": 12, "severity": "", "refs": []}
+{"id": "9-32#13", "para_id": "9-32", "type": "DECISION_RULE", "text": "물체 뒤에 해 ............. 뒤에서 빛을 받는 물체는 더 멀어 보인다.", "condition": "물체 뒤에", "action": "해 ............. 뒤에서 빛을 받는 물체는 더 멀어 보인다.", "order": 13, "severity": "", "refs": []}
+{"id": "9-33#1", "para_id": "9-33", "type": "FACT", "text": "거리 측정 방법은 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-33#2", "para_id": "9-33", "type": "FACT", "text": "100m 단위 측정법.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-33#3", "para_id": "9-33", "type": "FACT", "text": "물체 외형법.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-33#4", "para_id": "9-33", "type": "FACT", "text": "섬광-음향법.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-33#5", "para_id": "9-33", "type": "FACT", "text": "밀 공식법.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "9-33#6", "para_id": "9-33", "type": "FACT", "text": "이 방법들의 조합.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-34#1", "para_id": "9-34", "type": "FACT", "text": "지면 위 100m 거리를 머릿속에 그린다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-34#2", "para_id": "9-34", "type": "FACT", "text": "500m까지는 측정하려는 두 지점 사이에 100m가 몇 번 들어가는지 센다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-34#3", "para_id": "9-34", "type": "DECISION_RULE", "text": "500m를 넘으면 표적까지의 중간 지점을 정해 그곳까지 100m가 몇 번인지 세고, 그 수를 두 배 하여 표적까지 거리를 구한다.", "condition": "500m를 넘으면", "action": "표적까지의 중간 지점을 정해 그곳까지 100m가 몇 번인지 세고, 그 수를 두 배 하여 표적까지 거리를 구한다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-34#4", "para_id": "9-34", "type": "FACT", "text": "100m 단위 측정법의 정확도는 지면이 얼마나 보이는지에 달려 있으며, 먼 거리일수록 더 그렇다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-34#5", "para_id": "9-34", "type": "DECISION_RULE", "text": "표적이 500m 이상이고 표적까지의 지면 일부만 보이면 이 방법을 정확히 쓰기 어렵다.", "condition": "표적이 500m 이상이고 표적까지의 지면 일부만 보이면", "action": "이 방법을 정확히 쓰기 어렵다.", "order": 5, "severity": "", "refs": []}
+{"id": "9-34#6", "para_id": "9-34", "type": "FACT", "text": "알려진 거리에서 병력과 장비가 보이는 크기와 세부를 알면, 거리를 모르는 비슷한 물체와 비교할 수 있다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-34#7", "para_id": "9-34", "type": "DECISION_RULE", "text": "특징이 일치하면 거리도 일치한다.", "condition": "특징이 일치하면", "action": "거리도 일치한다.", "order": 7, "severity": "", "refs": []}
+{"id": "9-35#1", "para_id": "9-35", "type": "DECISION_RULE", "text": "물체 외형법을 쓰려면 여러 거리에서 물체가 어떻게 보이는지 그 특징을 잘 알아야 한다.", "condition": "물체 외형법을 쓰려면", "action": "여러 거리에서 물체가 어떻게 보이는지 그 특징을 잘 알아야 한다.", "order": 1, "severity": "", "refs": []}
+{"id": "9-35#2", "para_id": "9-35", "type": "DECISION_RULE", "text": "세부를 볼 수 있어야 하므로 기상, 연막, 어둠처럼 가시도를 제한하는 요인이 있으면 효과가 떨어진다.", "condition": "세부를 볼 수 있어야 하므로 기상, 연막, 어둠처럼 가시도를 제한하는 요인이 있으면", "action": "효과가 떨어진다.", "order": 2, "severity": "", "refs": []}
+{"id": "9-35#3", "para_id": "9-35", "type": "FACT", "text": "알려진 거리에서 병력과 장비가 보이는 크기와 세부를 알면, 거리를 모르는 비슷한 물체와 비교할 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-35#4", "para_id": "9-35", "type": "DECISION_RULE", "text": "특징이 일치하면 거리도 일치한다.", "condition": "특징이 일치하면", "action": "거리도 일치한다.", "order": 4, "severity": "", "refs": []}
+{"id": "9-35#5", "para_id": "9-35", "type": "FACT", "text": "표 9-2는 거리별로 사람의 몸에서 보이는 것을 보여 준다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["표9-2"]}
+{"id": "표9-2#1", "para_id": "표9-2", "type": "REFERENCE", "text": "표 9-2. 물체 외형법에 의한 사람의 모습.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["표9-2"]}
+{"id": "표9-2#2", "para_id": "표9-2", "type": "FACT", "text": "거리 (m)", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "표9-2#3", "para_id": "표9-2", "type": "FACT", "text": "보이는 모습", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "표9-2#4", "para_id": "표9-2", "type": "FACT", "text": "200 장비, 피부색 등 모든 세부가 선명함", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "표9-2#5", "para_id": "표9-2", "type": "FACT", "text": "300 몸 윤곽 선명, 얼굴색 잘 보임, 나머지 세부는 흐림", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "표9-2#6", "para_id": "표9-2", "type": "FACT", "text": "400 몸 윤곽은 선명, 다른 세부는 흐림", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "표9-2#7", "para_id": "표9-2", "type": "FACT", "text": "500 몸이 가늘어 보이고 머리와 몸이 구별되지 않음", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "표9-2#8", "para_id": "표9-2", "type": "FACT", "text": "600 몸이 쐐기 모양, 머리가 보이지 않음", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "표9-2#9", "para_id": "표9-2", "type": "FACT", "text": "700 꽉 찬 쐐기 모양(몸 윤곽)", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "9-36#1", "para_id": "9-36", "type": "FACT", "text": "야간에 가장 좋은 방법이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-36#2", "para_id": "9-36", "type": "FACT", "text": "소리는 공기 중에서 초당 1,100피트(300m)를 간다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-36#3", "para_id": "9-36", "type": "DECISION_RULE", "text": "따라서 소리를 내는 행동을 보고 들을 수 있으면 거리를 측정할 수 있다.", "condition": "따라서 소리를 내는 행동을 보고 들을 수 있으면", "action": "거리를 측정할 수 있다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-36#4", "para_id": "9-36", "type": "FACT", "text": "화기의 섬광이나 연기, 또는 그로 인한 먼지를 보는 즉시 수를 세기 시작한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-36#5", "para_id": "9-36", "type": "DECISION_RULE", "text": "그 소리가 들리면 세기를 멈춘다.", "condition": "그 소리가 들리면", "action": "세기를 멈춘다.", "order": 5, "severity": "", "refs": []}
+{"id": "9-36#6", "para_id": "9-36", "type": "FACT", "text": "멈춘 수에 3을 곱한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "9-36#7", "para_id": "9-36", "type": "DECISION_RULE", "text": "그러면 화기까지의 대략적인 거리를 100m 단위로 알 수 있다.", "condition": "그러면", "action": "화기까지의 대략적인 거리를 100m 단위로 알 수 있다.", "order": 7, "severity": "", "refs": []}
+{"id": "9-36#8", "para_id": "9-36", "type": "DECISION_RULE", "text": "하나에서 멈추면 약 300m, 셋에서 멈추면 약 900m다.", "condition": "하나에서 멈추면", "action": "약 300m, 셋에서 멈추면 약 900m다.", "order": 8, "severity": "", "refs": []}
+{"id": "9-36#9", "para_id": "9-36", "type": "DECISION_RULE", "text": "아홉보다 더 세야 하면 아홉에 이를 때마다 하나부터 다시 센다.", "condition": "아홉보다 더 세야 하면", "action": "아홉에 이를 때마다 하나부터 다시 센다.", "order": 9, "severity": "", "refs": []}
+{"id": "9-36#10", "para_id": "9-36", "type": "DECISION_RULE", "text": "큰 수를 세면 박자가 흐트러진다.", "condition": "큰 수를 세면", "action": "박자가 흐트러진다.", "order": 10, "severity": "", "refs": []}
+{"id": "9-37#1", "para_id": "9-37", "type": "FACT", "text": "가장 쉽고 좋은 거리 측정 방법이다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-37#2", "para_id": "9-37", "type": "FACT", "text": "1,000m 거리에서 1밀의 각은 폭 또는 높이 1m에 해당한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-37#3", "para_id": "9-37", "type": "DECISION_RULE", "text": "표적까지 거리를 구하려면 표적의 추정 높이(m)를 (M22 쌍안경의 눈금으로 잰) 표적 크기(밀)로 나눈다.", "condition": "표적까지 거리를 구하려면", "action": "표적의 추정 높이(m)를 (M22 쌍안경의 눈금으로 잰) 표적 크기(밀)로 나눈다.", "order": 3, "severity": "", "refs": []}
+{"id": "9-37#4", "para_id": "9-37", "type": "DECISION_RULE", "text": "여기에 1,000을 곱하면 거리(m)가 된다(그림 9-10).", "condition": "여기에 1,000을 곱하면", "action": "거리(m)가 된다(그림 9-10).", "order": 4, "severity": "", "refs": ["그림9-10"]}
+{"id": "그림9-10#1", "para_id": "그림9-10", "type": "REFERENCE", "text": "그림 9-10. 밀 공식.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림9-10"]}
+{"id": "그림9-10#2", "para_id": "그림9-10", "type": "FACT", "text": "추정 높이(m) × 1,000 = 추정 거리(m) 표적 크기(밀)", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "9-38#1", "para_id": "9-38", "type": "FACT", "text": "전장 조건이 거리 측정에 늘 이상적이지는 않다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "9-38#2", "para_id": "9-38", "type": "DECISION_RULE", "text": "지형 때문에 100m 단위 측정법을 쓰기 어렵고 가시도가 나빠 물체 외형법도 쓰기 어렵다면 여러 방법을 조합해야 할 수 있다.", "condition": "지형 때문에 100m 단위 측정법을 쓰기 어렵고 가시도가 나빠 물체 외형법도 쓰기 어렵다면", "action": "여러 방법을 조합해야 할 수 있다.", "order": 2, "severity": "", "refs": []}
+{"id": "9-38#3", "para_id": "9-38", "type": "FACT", "text": "예를 들어 표적까지의 지형 전체가 보이지 않아도 표적 자체의 크기와 세부로 거리를 추정할 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "9-38#4", "para_id": "9-38", "type": "FACT", "text": "연무로 표적의 세부가 가려져도 크기를 판단하거나 100m 단위 측정법을 쓸 수 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "9-38#5", "para_id": "9-38", "type": "DECISION_RULE", "text": "한 가지 또는 두 가지 방법을 쓰면 실제 거리에 가까운 값을 얻을 수 있다.", "condition": "한 가지 또는 두 가지 방법을 쓰면", "action": "실제 거리에 가까운 값을 얻을 수 있다.", "order": 5, "severity": "", "refs": []}
+{"id": "11.intro1#1", "para_id": "11.intro1", "type": "FACT", "text": "무선은 가장 보안성이 낮은 통신 수단이지만, 메시지 교환을 빠르게 하고 오류를 줄여 준다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.intro1#2", "para_id": "11.intro1", "type": "DECISION_RULE", "text": "적이 무선 통신을 방해할 기회를 줄이려면 올바른 무선 절차를 써야 한다.", "condition": "적이 무선 통신을 방해할 기회를 줄이려면", "action": "올바른 무선 절차를 써야 한다.", "order": 2, "severity": "", "refs": []}
+{"id": "11.intro1#3", "para_id": "11.intro1", "type": "FACT", "text": "무선으로 말할 때마다 목소리는 모든 방향으로 퍼져 나간다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11.intro1#4", "para_id": "11.intro1", "type": "DECISION_RULE", "text": "적은 당신이 다른 아군 무선국과 통신하는 동안 당신의 송신을 들을 수 있다.", "condition": "적은 당신이 다른 아군 무선국과 통신하는 동안", "action": "당신의 송신을 들을 수 있다.", "order": 4, "severity": "", "refs": []}
+{"id": "11.intro1#5", "para_id": "11.intro1", "type": "FACT", "text": "적이 당신과 당신 부대에 관한 정보를 얻거나, 위치를 찾아 포병 사격으로 파괴하려고 항상 듣고 있다고 가정해야 한다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11-1#1", "para_id": "11-1", "type": "DECISION_RULE", "text": "다음 무선 절차 규칙을 지키면 송신 시간을 효율적으로 쓰고 통신 위반을 피할 수 있다.", "condition": "다음 무선 절차 규칙을 지키면", "action": "송신 시간을 효율적으로 쓰고 통신 위반을 피할 수 있다.", "order": 1, "severity": "", "refs": []}
+{"id": "11-1#2", "para_id": "11-1", "type": "DECISION_RULE", "text": "운용 전에 장비가 올바르게 설정되었는지 확인한다.", "condition": "운용 전에", "action": "장비가 올바르게 설정되었는지 확인한다.", "order": 2, "severity": "", "refs": []}
+{"id": "11-1#3", "para_id": "11-1", "type": "FACT", "text": "기술교범(TM)부터 확인하는 것이 좋다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11-1#4", "para_id": "11-1", "type": "FACT", "text": "점검 항목의 예는 주파수 조정, 출력 설정, 연결 상태다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11-1#5", "para_id": "11-1", "type": "FACT", "text": "부대 통신운용지시(SOI)에 따라 주파수와 호출부호를 바꾼다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11-1#6", "para_id": "11-1", "type": "FACT", "text": "송신 일정과 길이를 다양하게 한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11-1#7", "para_id": "11-1", "type": "FACT", "text": "보고 송신 등에는 정해진 양식을 써서 송신을 빠르게 한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "11-1#8", "para_id": "11-1", "type": "FACT", "text": "메시지를 암호화하거나 보안 음성을 쓴다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "11-1#9", "para_id": "11-1", "type": "FACT", "text": "무선 통신의 명료도는 크게 달라지므로 음성 문자(포네틱 알파벳)와 숫자 읽는 법을 쓴다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "11-1#10", "para_id": "11-1", "type": "FACT", "text": "명확하고 완전하고 간결한 메시지를 송신한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "11-1#11", "para_id": "11-1", "type": "DECISION_RULE", "text": "가능하면 미리 써 둔다.", "condition": "가능하면", "action": "미리 써 둔다.", "order": 11, "severity": "", "refs": []}
+{"id": "11-1#12", "para_id": "11-1", "type": "DECISION_RULE", "text": "각 단어를 또렷이 발음하면서 분명하게, 천천히, 자연스러운 구절 단위로 말한다.", "condition": "각 단어를 또렷이 발음하면", "action": "서 분명하게, 천천히, 자연스러운 구절 단위로 말한다.", "order": 12, "severity": "", "refs": []}
+{"id": "11-1#13", "para_id": "11-1", "type": "DECISION_RULE", "text": "수신자가 받아 적어야 하면 적을 시간을 준다.", "condition": "수신자가 받아 적어야 하면", "action": "적을 시간을 준다.", "order": 13, "severity": "", "refs": []}
+{"id": "11-1#14", "para_id": "11-1", "type": "DECISION_RULE", "text": "다른 송신을 방해하지 않도록 송신 전에 먼저 들어 본다.", "condition": "다른 송신을 방해하지 않도록 송신 전에", "action": "먼저 들어 본다.", "order": 14, "severity": "", "refs": []}
+{"id": "11-1#15", "para_id": "11-1", "type": "FACT", "text": "긴 메시지는 잡음에 뭉개질 위험이 있고 전자 신호 노출을 키운다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "11-1#16", "para_id": "11-1", "type": "DECISION_RULE", "text": "송신 시간을 줄이고 혼동을 피하려면 절차용어를 반드시 써야 한다.", "condition": "송신 시간을 줄이고 혼동을 피하려면", "action": "절차용어를 반드시 써야 한다.", "order": 16, "severity": "", "refs": []}
+{"id": "11-1#17", "para_id": "11-1", "type": "FACT", "text": "송신 시간을 최소화한다.", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "11-2#1", "para_id": "11-2", "type": "FACT", "text": "무선국은 전술 상황의 요구에 따라 망으로 묶인다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11-2#2", "para_id": "11-2", "type": "DEFINITION", "text": "망이란 같은 주파수로 서로 통신하는 둘 이상의 무선국이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11-2#3", "para_id": "11-2", "type": "FACT", "text": "망은 음성, 데이터, 또는 둘 다를 위한 것일 수 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11-2#4", "para_id": "11-2", "type": "FACT", "text": "망의 종류는 다음과 같다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11-2#5", "para_id": "11-2", "type": "FACT", "text": "지휘망 (부대 기동을 지휘·통제한다).", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11-2#6", "para_id": "11-2", "type": "FACT", "text": "정보망 (적 정보를 전달하고 상황 인식을 발전시킨다).", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11-2#7", "para_id": "11-2", "type": "FACT", "text": "작전·정보망행정·군수망 (지속지원 자산을 협조한다).", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "11.보고의 우선순위1#1", "para_id": "11.보고의 우선순위1", "type": "FACT", "text": "섬광(Flash) (최초 적 접촉 보고).", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.보고의 우선순위1#2", "para_id": "11.보고의 우선순위1", "type": "DECISION_RULE", "text": "긴급(Immediate) (아군 및 동맹군의 안전에 크게 영향을 주는 상황).", "condition": "긴급(Immediate) (아군 및 동맹군의 안전에", "action": "크게 영향을 주는 상황).", "order": 2, "severity": "", "refs": []}
+{"id": "11.보고의 우선순위1#3", "para_id": "11.보고의 우선순위1", "type": "FACT", "text": "우선(Priority) (일반 통신보다 중요한 메시지).", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11.보고의 우선순위1#4", "para_id": "11.보고의 우선순위1", "type": "FACT", "text": "보통(Routine) (긴급하지 않은 모든 메시지).", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#1", "para_id": "11.메시지 형식1", "type": "FACT", "text": "머리말--머리말은 다음 정보로 이루어진다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#2", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "상대국과 자국의 식별.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#3", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "송신 지시(중계하라, 복창하라, 응답하지 마라).", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#4", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "우선순위.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#5", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "발신/수신.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#6", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "본문--본문은 다음에 쓴다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#7", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "\"브레이크\"로 머리말과 메시지를 구분한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#8", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "메시지의 용건을 말한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#9", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "맺음말--맺음말은 다음으로 이루어진다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#10", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "최종 지시(정정, 다시 말한다, 추가 있음, 대기, 실시, 기다려라).", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.메시지 형식1#11", "para_id": "11.메시지 형식1", "type": "PROCEDURE", "text": "오버 또는 아웃(둘을 함께 쓰지 않는다).", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11-3#1", "para_id": "11-3", "type": "FACT", "text": "병사는 9개 항목 의무후송 요청과 화력 요청을 작성하고 사용할 줄 알아야 한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11-3#2", "para_id": "11-3", "type": "FACT", "text": "9개 항목 의무후송(MEDEVAC) 요청--자세한 설명은 FM 4-02.2 표 4-3 참조: 항목 1 환자 인수 지점의 위치. 항목 2 무선 주파수, 호출부호, 접미어. 항목 3 우선순위별 환자 수. 항목 4 필요한 특수 장비. 항목 5 환자 유형. 항목 6 인수 지점의 보안 상태(전시).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["표4-3"]}
+{"id": "11-3#3", "para_id": "11-3", "type": "FACT", "text": "항목 6 부상·상해·질병의 수와 종류(평시).", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11-3#4", "para_id": "11-3", "type": "FACT", "text": "항목 7 인수 지점 표시 방법. 항목 8 환자의 국적과 신분. 항목 9 화생방 오염 여부(전시).", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11-3#5", "para_id": "11-3", "type": "FACT", "text": "항목 9 지형 설명(평시).", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11-3#6", "para_id": "11-3", "type": "FACT", "text": "화력 요청--일반적인 화력 요청은 세 번에 나누어 보내며, 각 부분은 다음 여섯 요소로 이루어진다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11-3#7", "para_id": "11-3", "type": "DECISION_RULE", "text": "여섯 요소를 송신 순서대로 적으면 다음과 같다.", "condition": "여섯 요소를 송신 순서대로 적으면", "action": "다음과 같다.", "order": 7, "severity": "", "refs": []}
+{"id": "11-3#8", "para_id": "11-3", "type": "REFERENCE", "text": "화력 요청에 관한 자세한 설명은 FM 6-30 제4장을 참조한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": ["제4장"]}
+{"id": "11-3#9", "para_id": "11-3", "type": "FACT", "text": "관측자 식별.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "11-3#10", "para_id": "11-3", "type": "FACT", "text": "준비 명령.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "11-3#11", "para_id": "11-3", "type": "FACT", "text": "표적 위치.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "11-3#12", "para_id": "11-3", "type": "FACT", "text": "표적 묘사.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "11-3#13", "para_id": "11-3", "type": "FACT", "text": "교전 방법.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "11-3#14", "para_id": "11-3", "type": "FACT", "text": "사격 및 통제 방법.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "11-4#1", "para_id": "11-4", "type": "FACT", "text": "일반 절차용어, 신호 강도·명료도 절차용어, 무선 감도 확인은 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11-4#2", "para_id": "11-4", "type": "FACT", "text": "일반 절차용어--일반 절차용어는 무선 운용 중 일상적으로 쓰는 말이다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11-4#3", "para_id": "11-4", "type": "FACT", "text": "받는 사람에게 뜻이 구체적이고 분명하게 정해져 있으므로 서로 바꿔 쓸 수 없다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11-4#4", "para_id": "11-4", "type": "FACT", "text": "예를 들어 \"다시 보내라(Say Again)\"와 \"반복(Repeat)\"이 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11-4#5", "para_id": "11-4", "type": "FACT", "text": "\"다시 보내라\"는 직전 송신을 다시 하라는 뜻이고, \"반복\"은 화력 지원에서 직전 사격 임무를 다시 사격하라는 뜻이다(그림 11-1).", "condition": "", "action": "", "order": 5, "severity": "", "refs": ["그림11-1"]}
+{"id": "11-4#6", "para_id": "11-4", "type": "DECISION_RULE", "text": "신호 강도·명료도 절차용어--무선 감도 확인 때는 정해진 신호 강도·명료도 절차용어를 써야 한다.", "condition": "신호 강도·명료도 절차용어--무선 감도 확인 때는", "action": "정해진 신호 강도·명료도 절차용어를 써야 한다.", "order": 6, "severity": "", "refs": []}
+{"id": "11-4#7", "para_id": "11-4", "type": "FACT", "text": "신호 강도 절차용어", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "11-4#8", "para_id": "11-4", "type": "FACT", "text": "강함(Loud).", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "11-4#9", "para_id": "11-4", "type": "FACT", "text": "양호(Good).", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "11-4#10", "para_id": "11-4", "type": "FACT", "text": "약함(Weak).", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "11-4#11", "para_id": "11-4", "type": "FACT", "text": "매우 약함(Very Weak).", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "11-4#12", "para_id": "11-4", "type": "FACT", "text": "불량(Poor).", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "11-4#13", "para_id": "11-4", "type": "FACT", "text": "명료도 절차용어", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "11-4#14", "para_id": "11-4", "type": "FACT", "text": "명료(Clear).", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "11-4#15", "para_id": "11-4", "type": "FACT", "text": "판독 가능(Readable).", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "11-4#16", "para_id": "11-4", "type": "FACT", "text": "판독 불가(Unreadable).", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "11-4#17", "para_id": "11-4", "type": "FACT", "text": "왜곡(Distorted).", "condition": "", "action": "", "order": 17, "severity": "", "refs": []}
+{"id": "11-4#18", "para_id": "11-4", "type": "FACT", "text": "간섭 있음(With Interference).", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "11-4#19", "para_id": "11-4", "type": "FACT", "text": "단속적(Intermittent).", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "11-4#20", "para_id": "11-4", "type": "FACT", "text": "무선 감도 확인--신호 강도와 명료도를 평가한다.", "condition": "", "action": "", "order": 20, "severity": "", "refs": []}
+{"id": "11-4#21", "para_id": "11-4", "type": "FACT", "text": "무선 감도 확인의 예는 다음과 같다.", "condition": "", "action": "", "order": 21, "severity": "", "refs": []}
+{"id": "11-4#22", "para_id": "11-4", "type": "FACT", "text": "감도 확인내 신호 강도와 명료도는 어떤가?", "condition": "", "action": "", "order": 22, "severity": "", "refs": []}
+{"id": "11-4#23", "para_id": "11-4", "type": "FACT", "text": "알았다(Roger) 송신을 만족스럽게 받았다.", "condition": "", "action": "", "order": 23, "severity": "", "refs": []}
+{"id": "그림11-1#1", "para_id": "그림11-1", "type": "REFERENCE", "text": "그림 11-1. 일반 절차용어.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림11-1"]}
+{"id": "11.무선망 운용1#1", "para_id": "11.무선망 운용1", "type": "FACT", "text": "예비 호출 불독 19, 여기는 불독 29. 오버. 불독 29, 여기는 불독 19. 오버. 불독 19, 여기는 불독 29. 메시지 있음.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#2", "para_id": "11.무선망 운용1", "type": "FACT", "text": "오버. 불독 29, 여기는 불독 19. 메시지 보내라. 오버. 정정 불독 19, 여기는 불독 29. 호송대 로미오 3, 정정: 로미오 4는 1630Z 도착 예정. 오버. 복창 불독 19, 여기는 불독 29. 복창하라. 호송대 도착함.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#3", "para_id": "11.무선망 운용1", "type": "FACT", "text": "시각 1630Z. 오버. 다시 보내라 불독 19, 여기는 불독 29. 격자 329966으로 구난 차량 요청. 오버. 불독 29, 여기는 불독 19. 격자 이전 전부 다시 보내라. 오버. 불독 19, 여기는 불독 29. 다시 말한다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#4", "para_id": "11.무선망 운용1", "type": "FACT", "text": "구난 차량 요청. 오버. 알았다(Roger)와 이행하겠다(Wilco) 불독 19, 여기는 불독 29. 격자 329966으로 구난 차량 요청. 오버. 불독 29, 여기는 불독 19. 알았다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#5", "para_id": "11.무선망 운용1", "type": "FACT", "text": "오버. 불독 19, 여기는 불독 29. 격자 329966으로 이동하라. 오버. 불독 29, 여기는 불독 19. 이행하겠다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#6", "para_id": "11.무선망 운용1", "type": "FACT", "text": "오버. 불독 29, 여기는 불독 19. 알았다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11.무선망 운용1#7", "para_id": "11.무선망 운용1", "type": "FACT", "text": "오버.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "11.intro2#1", "para_id": "11.intro2", "type": "FACT", "text": "통신보안(COMSEC)은 인가되지 않은 사람이 통신으로부터 정보를 얻지 못하게 하고 통신의 진정성을 보장하는 조치와 통제다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11.intro2#2", "para_id": "11.intro2", "type": "FACT", "text": "통신보안 대상은 다음과 같다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "11.intro2#3", "para_id": "11.intro2", "type": "FACT", "text": "암호 보안.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11.intro2#4", "para_id": "11.intro2", "type": "FACT", "text": "전송 보안.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11.intro2#5", "para_id": "11.intro2", "type": "FACT", "text": "방사 보안.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11.intro2#6", "para_id": "11.intro2", "type": "FACT", "text": "물리 보안.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11-5#1", "para_id": "11-5", "type": "FACT", "text": "비인가 접근으로부터 보호되는 비밀 자료는 미국 정부가 생산하고 소유하는 정보다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "11-5#2", "para_id": "11-5", "type": "DECISION_RULE", "text": "비밀 자료에 접근(열람 인가)하려면 알 필요성 지정과 적절한 보안 인가가 있어야 한다.", "condition": "비밀 자료에 접근(열람 인가)하려면", "action": "알 필요성 지정과 적절한 보안 인가가 있어야 한다.", "order": 2, "severity": "", "refs": []}
+{"id": "11-5#3", "para_id": "11-5", "type": "FACT", "text": "자료의 보안을 지킬 책임은 그것을 다루는 개인에게 있다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "11-5#4", "para_id": "11-5", "type": "FACT", "text": "계급, 직함, 직책만으로 인가되는 사람은 없다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "11-5#5", "para_id": "11-5", "type": "FACT", "text": "오직 보안 인가 등급에 따라서만 인가된다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "11-5#6", "para_id": "11-5", "type": "FACT", "text": "비밀 등급(인가)의 세 단계는 다음과 같다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "11-5#7", "para_id": "11-5", "type": "FACT", "text": "1급 비밀--국가 안보에 매우 중대한 피해를 줄 수 있는 자료에 적용한다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "11-5#8", "para_id": "11-5", "type": "FACT", "text": "2급 비밀--국가 안보에 심각한 피해를 줄 수 있는 자료에 적용한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "11-5#9", "para_id": "11-5", "type": "FACT", "text": "3급 비밀--국가 안보에 피해를 줄 수 있는 자료에 적용한다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "11-5.note1#1", "para_id": "11-5.note1", "type": "FACT", "text": "\"대외비(FOUO)\"는 비밀 등급이 아니라 취급 지시다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15.intro3#1", "para_id": "15.intro3", "type": "FACT", "text": "급조폭발물은 병사와 민간인을 모두 노리는 비정규 폭발 장치다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15.intro3#2", "para_id": "15.intro3", "type": "FACT", "text": "조잡한 사제 폭발물부터 매우 정교한 원격 조종 장치까지 다양하다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "15.intro3#3", "para_id": "15.intro3", "type": "FACT", "text": "사상자를 늘려 공포를 심고 아군의 의지를 약화시킨다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "15.intro3#4", "para_id": "15.intro3", "type": "DECISION_RULE", "text": "기술이 발전하고 적의 경험이 쌓이면서 급조폭발물의 정교함과 종류는 계속 늘고 있다.", "condition": "기술이 발전하고 적의 경험이 쌓이면", "action": "서 급조폭발물의 정교함과 종류는 계속 늘고 있다.", "order": 4, "severity": "", "refs": []}
+{"id": "15-26#1", "para_id": "15-26", "type": "FACT", "text": "급조폭발물에는 시한 폭발 장치, 충격 기폭 장치, 차량 폭탄이 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-27#1", "para_id": "15-27", "type": "FACT", "text": "휴대전화를 포함한 전자적 수단, 또는 전선과 전원이나 시한 신관의 조합으로 기폭된다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-28#1", "para_id": "15-28", "type": "DECISION_RULE", "text": "떨어뜨리거나 던지는 등 어떤 종류의 충격을 받으면 기폭된다.", "condition": "떨어뜨리거나 던지는 등 어떤 종류의 충격을 받으면", "action": "기폭된다.", "order": 1, "severity": "", "refs": []}
+{"id": "15-29#1", "para_id": "15-29", "type": "FACT", "text": "흔히 자동차 폭탄이라고 하며, 폭발물을 실은 차량을 전자식 유선 명령, 무선 원격 조종, 또는 시한 장치로 기폭한다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-29#2", "para_id": "15-29", "type": "FACT", "text": "운전자는 있을 수도 없을 수도 있다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "15-29#3", "para_id": "15-29", "type": "FACT", "text": "소형 승용차부터 대형 화물차나 레미콘 차량까지 무엇이든 쓰일 수 있다(그림 15-9).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림15-9"]}
+{"id": "15-29#4", "para_id": "15-29", "type": "FACT", "text": "장치의 크기는 차량 크기에 따라 제한된다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "15-29#5", "para_id": "15-29", "type": "FACT", "text": "큰 차량일수록 더 많은 폭발물을 실을 수 있어 작은 차량보다 피해가 크다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "15-29#6", "para_id": "15-29", "type": "FACT", "text": "장치의 작동 방식도 다양하다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "15-29#7", "para_id": "15-29", "type": "FACT", "text": "차량 폭탄의 징후는 다음과 같다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "15-29#8", "para_id": "15-29", "type": "FACT", "text": "차량이 특히 뒤쪽이 낮게 내려앉아 있으며, 특히 차가 비어 보이는데도 그렇다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "15-29#9", "para_id": "15-29", "type": "EXCEPTION", "text": "다만 폭약을 옆패널에 숨기면 무게가 고르게 분산될 수 있다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "15-29#10", "para_id": "15-29", "type": "EXCEPTION", "text": "그래도 과도한 무게 때문에 차량이 낮게 내려앉아 있을 수 있다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "15-29#11", "para_id": "15-29", "type": "FACT", "text": "큰 상자, 가방, 자루 등 용기가 앞좌석 위나 아래, 근처 등 눈에 띄는 곳에 있다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "15-29#12", "para_id": "15-29", "type": "FACT", "text": "전선이나 끈 같은 것이 차량 앞쪽에서 뒷좌석이나 트렁크 쪽으로 이어져 있다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "15-29#13", "para_id": "15-29", "type": "FACT", "text": "차량 앞쪽에 타이머나 스위치가 있다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "15-29#14", "para_id": "15-29", "type": "FACT", "text": "주 폭약은 보통 보이지 않는 곳에 있으며, 앞서 말했듯 흔히 차량 뒤쪽에 있다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "15-29#15", "para_id": "15-29", "type": "FACT", "text": "이상하거나 매우 강한 연료 냄새가 난다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "15-29#16", "para_id": "15-29", "type": "FACT", "text": "운전자가 없거나 수상하게 행동한다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "그림15-9#1", "para_id": "그림15-9", "type": "REFERENCE", "text": "그림 15-9. 차량 급조폭발물의 적재량과 위험 반경.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-9"]}
+{"id": "15-30#1", "para_id": "15-30", "type": "FACT", "text": "급조폭발물의 대표적인 징후는 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-30#2", "para_id": "15-30", "type": "FACT", "text": "전선", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "15-30#3", "para_id": "15-30", "type": "FACT", "text": "안테나", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "15-30#4", "para_id": "15-30", "type": "FACT", "text": "도폭선(보통 빨간색)", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "15-30#5", "para_id": "15-30", "type": "FACT", "text": "노출된 탄약 부품", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "15-31#1", "para_id": "15-31", "type": "FACT", "text": "급조폭발물의 구성 요소는 다음과 같다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-31#2", "para_id": "15-31", "type": "FACT", "text": "주 폭약(폭발물)(그림 15-10).", "condition": "", "action": "", "order": 2, "severity": "", "refs": ["그림15-10"]}
+{"id": "15-31#3", "para_id": "15-31", "type": "FACT", "text": "외피(폭발물을 둘러싼 재료; 그림 15-11).", "condition": "", "action": "", "order": 3, "severity": "", "refs": ["그림15-11"]}
+{"id": "15-31#4", "para_id": "15-31", "type": "FACT", "text": "기폭 장치(명령 기폭식, 피해자 작동식, 타이머식; 그림 15-12).", "condition": "", "action": "", "order": 4, "severity": "", "refs": ["그림15-12"]}
+{"id": "그림15-10#1", "para_id": "그림15-10", "type": "REFERENCE", "text": "그림 15-10. 주 폭약(폭발물).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-10"]}
+{"id": "그림15-11#1", "para_id": "그림15-11", "type": "REFERENCE", "text": "그림 15-11. 외피(폭발물을 둘러싼 재료).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-11"]}
+{"id": "그림15-12#1", "para_id": "그림15-12", "type": "REFERENCE", "text": "그림 15-12. 기폭 장치(명령 기폭식, 피해자 작동식, 타이머식).", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-12"]}
+{"id": "15-32#1", "para_id": "15-32", "type": "FACT", "text": "그림 15-13부터 15-18까지(이 쪽부터 15-16쪽까지)는 급조폭발물의 종류와 구성 요소의 예다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-13", "쪽15-16"]}
+{"id": "15-32#2", "para_id": "15-32", "type": "FACT", "text": "이 사진들은 병사가 급조폭발물의 구성 요소를 알아보도록 훈련하기 위한 예시다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "15-32#3", "para_id": "15-32", "type": "DECISION_RULE", "text": "습격, 교통통제소, 호송 등의 작전 중 수상한 물체를 발견했을 때 이를 알아볼 수 있어야 한다.", "condition": "습격, 교통통제소, 호송 등의 작전 중 수상한 물체를 발견했을 때", "action": "이를 알아볼 수 있어야 한다.", "order": 3, "severity": "", "refs": []}
+{"id": "그림15-13#1", "para_id": "그림15-13", "type": "REFERENCE", "text": "그림 15-13. 급조폭발물 구성 요소.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-13"]}
+{"id": "그림15-14#1", "para_id": "그림15-14", "type": "REFERENCE", "text": "그림 15-14. 급조폭발물 송신기와 수신기.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-14"]}
+{"id": "그림15-15#1", "para_id": "그림15-15", "type": "REFERENCE", "text": "그림 15-15. 기폭 장치로 쓰이는 일상 물품.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-15"]}
+{"id": "그림15-16#1", "para_id": "그림15-16", "type": "REFERENCE", "text": "그림 15-16. 기폭 장치로 쓰이는 불발탄.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-16"]}
+{"id": "그림15-17#1", "para_id": "그림15-17", "type": "REFERENCE", "text": "그림 15-17. 기폭 장치와 함께 설치된 급조폭발물.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-17"]}
+{"id": "그림15-18#1", "para_id": "그림15-18", "type": "REFERENCE", "text": "그림 15-18. 전기 뇌관.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-18"]}
+{"id": "15-33#1", "para_id": "15-33", "type": "FACT", "text": "많은 지역, 특히 과거 전장에는 민감하고 치명적인 다양한 불발탄이 흩어져 있을 수 있다.", "condition": "", "action": "", "order": 1, "severity": "", "refs": []}
+{"id": "15-33#2", "para_id": "15-33", "type": "DECISION_RULE", "text": "불발탄으로 의심되는 물체를 발견하면 다음 예방 조치를 따른다.", "condition": "불발탄으로 의심되는 물체를 발견하면", "action": "다음 예방 조치를 따른다.", "order": 2, "severity": "", "refs": []}
+{"id": "15-33#3", "para_id": "15-33", "type": "PROHIBITION", "text": "불발탄 쪽으로 움직이지 않는다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "15-33#4", "para_id": "15-33", "type": "FACT", "text": "일부 탄약은 자기 감응 또는 움직임 감응 신관을 가지고 있다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "15-33#5", "para_id": "15-33", "type": "PROHIBITION", "text": "멀리서 식별할 수 없더라도 불발탄에 절대 접근하거나 집어 들지 않는다.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "15-33#6", "para_id": "15-33", "type": "DECISION_RULE", "text": "쌍안경이 있으면 쌍안경으로 관찰한다.", "condition": "쌍안경이 있으면", "action": "쌍안경으로 관찰한다.", "order": 6, "severity": "", "refs": []}
+{"id": "15-33#7", "para_id": "15-33", "type": "FACT", "text": "상급 부대에 불발탄 보고(그림 15-19)를 보낸다(아래 별도 항목 참조).", "condition": "", "action": "", "order": 7, "severity": "", "refs": ["그림15-19"]}
+{"id": "15-33#8", "para_id": "15-33", "type": "FACT", "text": "무전기는 탄약에서 최소 100m 떨어진 곳에서 사용한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "15-33#9", "para_id": "15-33", "type": "FACT", "text": "일부 불발탄 신관은 무선 송신으로 작동할 수 있다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "15-33#10", "para_id": "15-33", "type": "FACT", "text": "불발탄에서 떨어진 곳에 지뢰 테이프 등 눈에 잘 띄는 재료로 지역을 표시하여 다른 사람에게 위험을 알린다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "15-33#11", "para_id": "15-33", "type": "DECISION_RULE", "text": "적절히 표시하면 폭발물처리반(EOD)이 불발탄 보고를 받고 출동했을 때 위험 물을 찾는 데도 도움이 된다.", "condition": "적절히 표시하면", "action": "폭발물처리반(EOD)이 불발탄 보고를 받고 출동했을 때 위험 물을 찾는 데도 도움이 된다.", "order": 11, "severity": "", "refs": []}
+{"id": "15-33#12", "para_id": "15-33", "type": "FACT", "text": "다른 위험 요소를 주의 깊게 살피면서 지역에서 철수한다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "15-33#13", "para_id": "15-33", "type": "FACT", "text": "인원과 장비에 대한 위험을 줄이는 보호 조치를 한다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "15-33#14", "para_id": "15-33", "type": "FACT", "text": "현지 관계자와 주민에게 알린다.", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "그림15-19#1", "para_id": "그림15-19", "type": "REFERENCE", "text": "그림 15-19. 9개 항목 불발탄 사고 보고.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-19"]}
+{"id": "그림15-19#2", "para_id": "그림15-19", "type": "FACT", "text": "9개 항목 불발탄 사고 보고", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "그림15-19#3", "para_id": "그림15-19", "type": "FACT", "text": "1. 일시(DTG): 불발탄을 발견한 날짜와 시각.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "그림15-19#4", "para_id": "그림15-19", "type": "FACT", "text": "2. 보고 부대 또는 기관, 불발탄 위치: 격자 좌표.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "그림15-19#5", "para_id": "그림15-19", "type": "FACT", "text": "3. 연락 방법: 폭발물처리반이 보고 부대에 연락할 방법.", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "그림15-19#6", "para_id": "그림15-19", "type": "FACT", "text": "4. 발견 부대 연락 담당자: 이동가입자장비(MSE) 또는 국방망(DSN) 전화번호, 부대 주파수 또는 호출부호.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "그림15-19#7", "para_id": "그림15-19", "type": "FACT", "text": "5. 불발탄 종류: 투하형, 발사형, 투척형, 설치형 중 무엇인지와 발견 수량.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "그림15-19#8", "para_id": "그림15-19", "type": "FACT", "text": "6. 불발탄으로 인한 위험: 화학 위협 가능성, 주요 경로 통행 제한 등 예상되는 위협의 성격을 보고한다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "그림15-19#9", "para_id": "그림15-19", "type": "FACT", "text": "7. 위협받는 자원: 불발탄으로 위협받는 장비, 시설, 기타 자산을 보고한다.", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "그림15-19#10", "para_id": "그림15-19", "type": "FACT", "text": "8. 임무에 미치는 영향: 현재 상황과 불발탄이 부대 상태에 주는 영향.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "그림15-19#11", "para_id": "그림15-19", "type": "FACT", "text": "9. 보호 조치: 지역 표시, 현지 주민 통보 등 인원과 장비 보호를 위해 한 조치를 기술한다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "15-34#1", "para_id": "15-34", "type": "DECISION_RULE", "text": "급조폭발물을 발견하면 다음 기본 절차를 따른다.", "condition": "급조폭발물을 발견하면", "action": "다음 기본 절차를 따른다.", "order": 1, "severity": "", "refs": []}
+{"id": "15-34#2", "para_id": "15-34", "type": "FACT", "text": "360도 경계를 유지한다.", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "15-34#3", "para_id": "15-34", "type": "FACT", "text": "가까운 곳, 먼 곳, 높은 곳, 낮은 곳을 살핀다.", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "15-34#4", "para_id": "15-34", "type": "FACT", "text": "이탈한다.", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "15-34#5", "para_id": "15-34", "type": "DECISION_RULE", "text": "(가능하면) 최소 300m 거리를 계획하고, 임무·적·지형·부대·시간·민간 고려 요소 (METT-TC)에 맞게 조정한다.", "condition": "(가능하면", "action": ") 최소 300m 거리를 계획하고, 임무·적·지형·부대·시간·민간 고려 요소 (METT-TC)에 맞게 조정한다.", "order": 5, "severity": "", "refs": []}
+{"id": "15-34#6", "para_id": "15-34", "type": "FACT", "text": "가용한 엄폐물을 최대한 이용한다.", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "15-34#7", "para_id": "15-34", "type": "FACT", "text": "급조폭발물의 직선 시야 밖으로 벗어난다.", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "15-34#8", "para_id": "15-34", "type": "FACT", "text": "항상 바로 주변에 다른 급조폭발물이 있는지 살핀다.", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "15-34#9", "para_id": "15-34", "type": "DECISION_RULE", "text": "추가로 발견하면 현장 지휘관에게 보고한다.", "condition": "추가로 발견하면", "action": "현장 지휘관에게 보고한다.", "order": 9, "severity": "", "refs": []}
+{"id": "15-34#10", "para_id": "15-34", "type": "FACT", "text": "의심 물체가 급조폭발물인지 확인을 시도한다.", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "15-34#11", "para_id": "15-34", "type": "FACT", "text": "항상 광학 장비를 쓴다.", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "15-34#12", "para_id": "15-34", "type": "PROHIBITION", "text": "위험에 노출되는 인원은 절대 1명을 넘지 않게 한다.", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "15-34#13", "para_id": "15-34", "type": "FACT", "text": "가능한 한 멀리 떨어진다.", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "15-34#14", "para_id": "15-34", "type": "DECISION_RULE", "text": "확신이 없으면 물러나고 만지지 않는다.", "condition": "확신이 없으면", "action": "물러나고 만지지 않는다.", "order": 14, "severity": "", "refs": []}
+{"id": "15-34#15", "para_id": "15-34", "type": "FACT", "text": "지역을 차단한다.", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}
+{"id": "15-34#16", "para_id": "15-34", "type": "FACT", "text": "사람들을 위험 지역 밖으로 안내하고, 폭발물처리반처럼 대응 책임이 있는 사람외에는 들어가지 못하게 한다.", "condition": "", "action": "", "order": 16, "severity": "", "refs": []}
+{"id": "15-34#17", "para_id": "15-34", "type": "DECISION_RULE", "text": "필요하면 용의자를 질문·수색·억류한다.", "condition": "필요하면", "action": "용의자를 질문·수색·억류한다.", "order": 17, "severity": "", "refs": []}
+{"id": "15-34#18", "para_id": "15-34", "type": "FACT", "text": "이동하는 모든 장소에서 다른 급조폭발물이 있는지 확인한다.", "condition": "", "action": "", "order": 18, "severity": "", "refs": []}
+{"id": "15-34#19", "para_id": "15-34", "type": "FACT", "text": "상급 지휘부에 상황을 보고한다.", "condition": "", "action": "", "order": 19, "severity": "", "refs": []}
+{"id": "15-34#20", "para_id": "15-34", "type": "FACT", "text": "그림 15-20의 급조폭발물 현장 보고를 쓴다.", "condition": "", "action": "", "order": 20, "severity": "", "refs": ["그림15-20"]}
+{"id": "그림15-20#1", "para_id": "그림15-20", "type": "REFERENCE", "text": "그림 15-20. 급조폭발물 현장 보고.", "condition": "", "action": "", "order": 1, "severity": "", "refs": ["그림15-20"]}
+{"id": "그림15-20#2", "para_id": "그림15-20", "type": "FACT", "text": "급조폭발물 현장 보고", "condition": "", "action": "", "order": 2, "severity": "", "refs": []}
+{"id": "그림15-20#3", "para_id": "그림15-20", "type": "FACT", "text": "항목 1. 일시: [발견한 시각을 적는다.]", "condition": "", "action": "", "order": 3, "severity": "", "refs": []}
+{"id": "그림15-20#4", "para_id": "그림15-20", "type": "FACT", "text": "항목 2. 부대:", "condition": "", "action": "", "order": 4, "severity": "", "refs": []}
+{"id": "그림15-20#5", "para_id": "그림15-20", "type": "FACT", "text": "항목 3. 급조폭발물 위치: [최대한 구체적으로 기술한다.]", "condition": "", "action": "", "order": 5, "severity": "", "refs": []}
+{"id": "그림15-20#6", "para_id": "그림15-20", "type": "FACT", "text": "항목 4. 연락 방법: [무선 주파수, 호출부호, 연락 담당자.]", "condition": "", "action": "", "order": 6, "severity": "", "refs": []}
+{"id": "그림15-20#7", "para_id": "그림15-20", "type": "FACT", "text": "항목 5. 급조폭발물 상태: [폭발 또는 미폭발.]", "condition": "", "action": "", "order": 7, "severity": "", "refs": []}
+{"id": "그림15-20#8", "para_id": "그림15-20", "type": "FACT", "text": "항목 6. 급조폭발물 유형: [위장 고정형 / 위장 이동형 / 투척형 / 표적에 설치형.]", "condition": "", "action": "", "order": 8, "severity": "", "refs": []}
+{"id": "그림15-20#9", "para_id": "그림15-20", "type": "FACT", "text": "항목 7. 급조폭발물 수:", "condition": "", "action": "", "order": 9, "severity": "", "refs": []}
+{"id": "그림15-20#10", "para_id": "그림15-20", "type": "FACT", "text": "항목 8. 인원 상태:", "condition": "", "action": "", "order": 10, "severity": "", "refs": []}
+{"id": "그림15-20#11", "para_id": "그림15-20", "type": "FACT", "text": "항목 6. 장비 상태:", "condition": "", "action": "", "order": 11, "severity": "", "refs": []}
+{"id": "그림15-20#12", "para_id": "그림15-20", "type": "FACT", "text": "항목 7. 부수 피해 또는 부수 피해 가능성:", "condition": "", "action": "", "order": 12, "severity": "", "refs": []}
+{"id": "그림15-20#13", "para_id": "그림15-20", "type": "FACT", "text": "항목 8. 전술 상황: [현재 전술 상황을 간단히 기술한다.]", "condition": "", "action": "", "order": 13, "severity": "", "refs": []}
+{"id": "그림15-20#14", "para_id": "그림15-20", "type": "FACT", "text": "항목 9. 요청 사항: [신속대응부대(QRF) / 폭발물처리반(EOD) / 의무후송(MEDEVAC)].", "condition": "", "action": "", "order": 14, "severity": "", "refs": []}
+{"id": "그림15-20#15", "para_id": "그림15-20", "type": "FACT", "text": "항목 10. 요청 부대와의 접선 지점 위치:", "condition": "", "action": "", "order": 15, "severity": "", "refs": []}

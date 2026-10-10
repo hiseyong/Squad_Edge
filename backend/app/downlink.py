@@ -4,7 +4,7 @@ COP에서 만든 명령·보고 결과·진동 신호는 docs/TERMINAL_PROTOCOL.
 여기에 들어오고, 연결된 모든 출력으로 동시에 나간다.
 
 출력
-  - SoftAP TCP (COP_Q3)      : q3_ap → 보드 bridge_server → MCU LED + BLE CMD_BUTTON
+  - SoftAP TCP (COP_Q3)      : q3_ap → squad-leader CopServer → 분대장(명령 텍스트)
   - WebSocket /ws/router     : 라우터 단말 양방향
   - WebSocket /ws/downlink   : 외부 게이트웨이 구독
   - Serial (COP_SERIAL)      : 같은 포트로 NDJSON 한 줄씩 기록

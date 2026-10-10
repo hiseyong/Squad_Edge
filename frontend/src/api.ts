@@ -1,6 +1,14 @@
 import { useEffect } from 'react'
 import { useCop } from './store'
 import type { DecisionAction, Order, OrderCode, Report, ServerMsg } from './types'
+import type { BriefEvent, DemoMode, LlmStatus, ModeStatus } from './apiTypes'
+import { mockApi } from './mockup/api'
+import { bootMockup, stopMockup } from './mockup/engine'
+
+export type { BriefEvent, DemoMode, LlmStatus, ModeStatus } from './apiTypes'
+
+/** Vite `--mode mockup` 또는 VITE_COP_MOCKUP=1 */
+export const IS_MOCKUP = import.meta.env.VITE_COP_MOCKUP === '1'
 
 const post = async (url: string, body?: unknown) => {
   const r = await fetch(url, {
@@ -12,22 +20,6 @@ const post = async (url: string, body?: unknown) => {
   if (!r.ok) throw new Error(data?.detail ?? `HTTP ${r.status}`)
   return data
 }
-
-export interface LlmStatus {
-  enabled: boolean
-  available: boolean
-  url: string
-  api: string
-  model: string | null
-  models: string[]
-  error: string | null
-}
-
-export type BriefEvent =
-  | { type: 'meta'; engine: string; facts: string; reason?: string | null }
-  | { type: 'token'; text: string }
-  | { type: 'done'; text: string; latency: number }
-  | { type: 'error'; message: string }
 
 /** SSE(POST) 스트림 파서 */
 async function* sse(url: string, body: unknown, signal?: AbortSignal): AsyncGenerator<BriefEvent> {
@@ -52,7 +44,7 @@ async function* sse(url: string, body: unknown, signal?: AbortSignal): AsyncGene
   }
 }
 
-export const api = {
+const liveApi = {
   decide: (id: string, action: DecisionAction, note = '', edits?: Record<string, unknown>) =>
     post(`/api/reports/${id}/decision`, { action, note, edits }) as Promise<Report>,
   issueOrder: (o: { code: OrderCode; to: string[]; text?: string; params?: Record<string, unknown>; priority?: string }) =>
@@ -73,42 +65,22 @@ export const api = {
   briefing: (question?: string) =>
     post('/api/briefing', { question: question || null }) as Promise<{ text: string; engine: string }>,
   ingest: (ev: unknown) => post('/api/ingest', ev),
-  /** 탭 복귀 시 전체 상태 재동기화 */
   state: () => fetch('/api/state').then((r) => r.json()),
 }
 
-export type DemoMode = 'scenario' | 'realtime'
-
-export interface ModeStatus {
-  running?: boolean
-  sim_running?: boolean
-  mode: DemoMode
-  live_squads: string[]
-  mock_squads: string[]
-  mock_gps?: string[]
-  hw_relpos?: string[]
-  period_s: number
-  note: string
-  router: {
-    connected: boolean
-    clients: number
-    last_rx: number | null
-    rx_count: number
-    hw_squad: string
-    hw_units: string[]
-    mock_gps?: string[]
-    period_s: number
-  }
-}
+export const api = IS_MOCKUP ? mockApi : liveApi
 
 /**
- * WebSocket 연결 + 자동 재접속.
- * - 프레임마다 패치를 병합해 렌더 폭풍 방지
- * - 백그라운드 탭에서는 적용을 건너뛰고, 복귀 시 /api/state 로 재동기화
- *   (숨김 중 쌓인 수천 개 위치 패치가 메인 스레드를 멈추는 문제 방지)
+ * 실서버: WebSocket + 자동 재접속
+ * Mockup: 로컬 시드 + 1초 틱 (백엔드 불필요)
  */
 export function useCopSocket() {
   useEffect(() => {
+    if (IS_MOCKUP) {
+      bootMockup()
+      return () => stopMockup()
+    }
+
     let ws: WebSocket | null = null
     let timer: ReturnType<typeof setTimeout> | undefined
     let closed = false
@@ -128,7 +100,6 @@ export function useCopSocket() {
 
     const scheduleFlush = () => {
       if (flushTimer !== undefined) return
-      // rAF는 백그라운드에서 멈추므로 setTimeout 사용. 한 프레임 분량으로 묶음.
       flushTimer = setTimeout(flush, 50)
     }
 
@@ -138,7 +109,6 @@ export function useCopSocket() {
         return
       }
       queue.push(m)
-      // 스냅샷은 즉시 (앞에 쌓인 패치 폐기)
       if (m.t === 'snapshot') {
         queue = [m]
         if (flushTimer !== undefined) {
@@ -164,7 +134,6 @@ export function useCopSocket() {
         const v = await api.state()
         if (!closed) apply({ t: 'snapshot', v })
       } catch {
-        // fetch 실패 시 WS 재연결로 스냅샷 수신
         if (!closed) ws?.close()
       } finally {
         resyncing = false
@@ -178,7 +147,7 @@ export function useCopSocket() {
       ws.onmessage = (e) => {
         try {
           enqueue(JSON.parse(e.data) as ServerMsg)
-        } catch { /* ignore malformed */ }
+        } catch { /* ignore */ }
       }
       ws.onclose = () => {
         setConnected(false)
@@ -192,7 +161,6 @@ export function useCopSocket() {
         if (dirtyWhileHidden || queue.length > 50) resync()
         else scheduleFlush()
       } else {
-        // 숨김 전환: 대기열 비우고 이후 메시지는 dirty 플래그만
         queue = []
         if (flushTimer !== undefined) {
           clearTimeout(flushTimer)

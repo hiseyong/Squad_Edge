@@ -1,0 +1,16 @@
+# 분대장 보드 부팅 시 소대장용 Wi-Fi AP(SquadEdge-1-1, 192.168.4.1, uap0) 켜기
+# 설치: sudo cp deploy/squad-ap.service /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable squad-ap
+[Unit]
+Description=Squad leader Wi-Fi AP for platoon COP
+After=NetworkManager.service network-online.target
+Wants=NetworkManager.service network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStartPre=/bin/sleep 5
+ExecStart=/home/arduino/squad-leader/tools/ap_start.sh
+ExecStop=/home/arduino/squad-leader/tools/ap_stop.sh
+
+[Install]
+WantedBy=multi-user.target
