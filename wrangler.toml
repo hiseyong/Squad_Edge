@@ -1,0 +1,9 @@
+# Cloudflare Pages (repo root)
+# Dashboard:
+#   Root directory:  (비워 두기 / 저장소 루트)
+#   Build command:   npm run build:mockup
+#   Build output:    frontend/dist-mockup
+#   NODE_VERSION:    20
+name = "squad-edge-cop"
+compatibility_date = "2025-10-01"
+pages_build_output_dir = "frontend/dist-mockup"

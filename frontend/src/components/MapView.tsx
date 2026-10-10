@@ -168,8 +168,6 @@ export default function MapView() {
   const [follow, setFollow] = useState(false)
   const [grid, setGrid] = useState(true)
   const offlineReady = useOfflineTilesReady()
-  // SoftAP: 인터넷 없음 → 오프라인 타일 기본. 타일 미준비면 기존 온라인 레이어.
-  const preferOffline = offlineReady === true || (offlineReady === null && typeof navigator !== 'undefined' && !navigator.onLine)
   const seenContacts = useRef(new Set<string>())
 
   const center: [number, number] = mission?.origin ?? [36.3005, 127.4185]
@@ -197,9 +195,20 @@ export default function MapView() {
   return (
     <div className="relative h-full w-full">
       <MapContainer center={center} zoom={17} maxZoom={20} className="h-full w-full" zoomControl preferCanvas>
-        {/* offlineReady 확정 후 레이어 기본 선택을 다시 적용 */}
-        <LayersControl key={offlineReady === null ? 'pending' : preferOffline ? 'offline' : 'online'} position="topright">
-          <LayersControl.BaseLayer checked={preferOffline} name="오프라인 위성 (시연 AOI)">
+        {/* 기본 = 위성(온라인). mockup·실프론트 공통. SoftAP는 레이어에서 오프라인 위성 선택 */}
+        <LayersControl position="topright">
+          <LayersControl.BaseLayer checked name="위성 (온라인)">
+            <TileLayer
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              attribution="Esri World Imagery"
+              className="tiles-imagery-dim"
+              maxNativeZoom={19}
+              maxZoom={20}
+              keepBuffer={4}
+              updateWhenZooming={false}
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer name="오프라인 위성 (시연 AOI)">
             <TileLayer
               url="/tiles/{z}/{x}/{y}.jpg"
               attribution="offline Esri Imagery · tools/fetch_offline_tiles.py"
@@ -209,18 +218,6 @@ export default function MapView() {
               keepBuffer={4}
               updateWhenZooming={false}
               errorTileUrl="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            />
-          </LayersControl.BaseLayer>
-          {/* tile.openstreetmap.org 금지 (403). 온라인 기본 = 고해상도 위성 */}
-          <LayersControl.BaseLayer checked={!preferOffline} name="위성 (온라인)">
-            <TileLayer
-              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-              attribution="Esri World Imagery"
-              className="tiles-imagery-dim"
-              maxNativeZoom={19}
-              maxZoom={20}
-              keepBuffer={4}
-              updateWhenZooming={false}
             />
           </LayersControl.BaseLayer>
           <LayersControl.BaseLayer name="Esri 스트리트 (온라인)">

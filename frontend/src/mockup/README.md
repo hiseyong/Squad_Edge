@@ -12,14 +12,16 @@
 
 ## Cloudflare Pages (Git 연동)
 
-Dashboard → Workers & Pages → Create → Connect repo:
+저장소 **루트** 기준 (Root directory 비움):
 
 | 항목 | 값 |
 |---|---|
-| **Root directory** | `frontend` |
+| **Root directory** | *(empty / repository root)* |
 | **Build command** | `npm run build:mockup` |
-| **Build output directory** | `dist-mockup` |
-| **Node version** | `20` (Environment variables → `NODE_VERSION=20`) |
+| **Build output directory** | `frontend/dist-mockup` |
+| **Node version** | `20` (`NODE_VERSION=20` 또는 `.node-version`) |
+
+`frontend`를 Root로 쓸 경우: Build=`npm run build:mockup`, Output=`dist-mockup`.
 
 배포 후 `https://<project>.pages.dev` 로 접속.
 

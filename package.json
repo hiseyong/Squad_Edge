@@ -1,0 +1,12 @@
+{
+  "name": "2026d4d",
+  "private": true,
+  "description": "Cloudflare Pages builds from repo root — UI mockup lives in frontend/",
+  "scripts": {
+    "build:mockup": "npm ci --prefix frontend && npm run build:mockup --prefix frontend",
+    "deploy:mockup": "npm run build:mockup && npx wrangler pages deploy frontend/dist-mockup --project-name=squad-edge-cop"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

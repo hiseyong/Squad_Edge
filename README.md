@@ -18,9 +18,9 @@ COP_SIM=0 ./run.sh                   # 시뮬레이터 끄고 실제 하드웨�
 
 | CF Pages 설정 | 값 |
 |---|---|
-| Root directory | `frontend` |
+| Root directory | *(비움 — 저장소 루트)* |
 | Build command | `npm run build:mockup` |
-| Build output | `dist-mockup` |
+| Build output | `frontend/dist-mockup` |
 | Node | `20` |
 
 로컬 빌드: `./run-mockup.sh build` · CLI: `./run-mockup.sh deploy` (`wrangler login` 후)
