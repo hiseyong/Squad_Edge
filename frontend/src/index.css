@@ -1,0 +1,309 @@
+@import "tailwindcss";
+
+/* Palantir Blueprint / PRISMA-inspired ops palette */
+@theme {
+  --font-sans: "IBM Plex Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-prisma-void: #080b10;
+  --color-prisma-bg: #0c1117;
+  --color-prisma-surface: #121820;
+  --color-prisma-panel: #151c26;
+  --color-prisma-elevated: #1b2430;
+  --color-prisma-hover: #222c3a;
+  --color-prisma-border: #2a3544;
+  --color-prisma-line: #1e2836;
+  --color-prisma-fg: #e7edf5;
+  --color-prisma-muted: #8a96a8;
+  --color-prisma-dim: #5c687a;
+  --color-prisma-accent: #2bb7c7;
+  --color-prisma-accent-soft: #1a6f7a;
+  --color-prisma-intent: #48aff0;
+  --color-prisma-ok: #3dcc91;
+  --color-prisma-warn: #f2b824;
+  --color-prisma-danger: #eb532d;
+  --color-prisma-hostile: #f55656;
+  --color-prisma-unknown: #f5c842;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font-family: var(--font-sans);
+  background: var(--color-prisma-void);
+  color: var(--color-prisma-fg);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "tnum";
+}
+
+@layer components {
+  .panel-title {
+    @apply flex items-center gap-2 px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-prisma-muted;
+    border-bottom: 1px solid var(--color-prisma-line);
+    background: linear-gradient(180deg, #161e28 0%, var(--color-prisma-panel) 100%);
+  }
+  .panel-title::before {
+    content: "";
+    width: 2px;
+    height: 10px;
+    background: var(--color-prisma-accent);
+    flex-shrink: 0;
+  }
+
+  .prisma-shell {
+    background:
+      radial-gradient(1200px 600px at 12% -10%, #15202c 0%, transparent 55%),
+      radial-gradient(900px 500px at 100% 0%, #101820 0%, transparent 50%),
+      var(--color-prisma-bg);
+  }
+
+  .prisma-rail {
+    background: var(--color-prisma-panel);
+    border-color: var(--color-prisma-border);
+  }
+
+  .prisma-chip {
+    @apply inline-flex items-center gap-1.5 border px-2 py-0.5 text-[10px] font-medium tracking-wide;
+    border-color: var(--color-prisma-border);
+    background: var(--color-prisma-elevated);
+    color: var(--color-prisma-muted);
+    border-radius: 2px;
+  }
+  .prisma-chip-on {
+    border-color: color-mix(in srgb, var(--color-prisma-accent) 55%, transparent);
+    background: color-mix(in srgb, var(--color-prisma-accent) 12%, var(--color-prisma-elevated));
+    color: var(--color-prisma-fg);
+  }
+
+  .prisma-seg {
+    @apply inline-flex overflow-hidden;
+    border: 1px solid var(--color-prisma-border);
+    border-radius: 2px;
+    background: var(--color-prisma-void);
+  }
+  .prisma-seg button {
+    @apply px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider transition-colors;
+    color: var(--color-prisma-dim);
+  }
+  .prisma-seg button:hover { color: var(--color-prisma-fg); background: var(--color-prisma-hover); }
+  .prisma-seg button.on {
+    color: var(--color-prisma-fg);
+    background: color-mix(in srgb, var(--color-prisma-accent) 22%, var(--color-prisma-elevated));
+    box-shadow: inset 0 -1px 0 var(--color-prisma-accent);
+  }
+  .prisma-seg button + button { border-left: 1px solid var(--color-prisma-border); }
+
+  .prisma-btn {
+    @apply inline-flex items-center justify-center gap-1 px-2.5 py-1 text-[11px] font-semibold tracking-wide transition-colors;
+    border-radius: 2px;
+    border: 1px solid var(--color-prisma-border);
+    background: var(--color-prisma-elevated);
+    color: var(--color-prisma-fg);
+  }
+  .prisma-btn:hover { background: var(--color-prisma-hover); }
+  .prisma-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .prisma-btn-primary {
+    border-color: color-mix(in srgb, var(--color-prisma-accent) 50%, transparent);
+    background: color-mix(in srgb, var(--color-prisma-accent) 28%, #0e2a30);
+    color: #dff7fa;
+  }
+  .prisma-btn-primary:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--color-prisma-accent) 42%, #0e2a30);
+  }
+  .prisma-btn-danger {
+    border-color: color-mix(in srgb, var(--color-prisma-danger) 45%, transparent);
+    background: color-mix(in srgb, var(--color-prisma-danger) 22%, #1a1210);
+    color: #ffd4c8;
+  }
+
+  .prisma-input {
+    @apply w-full px-2 py-1 text-xs outline-none transition-colors;
+    border-radius: 2px;
+    border: 1px solid var(--color-prisma-border);
+    background: var(--color-prisma-void);
+    color: var(--color-prisma-fg);
+  }
+  .prisma-input::placeholder { color: var(--color-prisma-dim); }
+  .prisma-input:focus {
+    border-color: color-mix(in srgb, var(--color-prisma-accent) 70%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-prisma-accent) 35%, transparent);
+  }
+
+  .prisma-metric {
+    @apply flex flex-col leading-none;
+  }
+  .prisma-metric .lbl {
+    @apply text-[9px] font-medium uppercase tracking-[0.12em] text-prisma-dim;
+  }
+  .prisma-metric .val {
+    @apply mt-0.5 font-mono text-sm font-semibold tabular-nums;
+  }
+
+  .prisma-row {
+    @apply flex w-full items-center gap-2 px-3 py-1.5 text-left text-xs transition-colors;
+  }
+  .prisma-row:hover { background: var(--color-prisma-hover); }
+  .prisma-row.sel {
+    background: color-mix(in srgb, var(--color-prisma-accent) 10%, transparent);
+    box-shadow: inset 2px 0 0 var(--color-prisma-accent);
+  }
+
+  .prisma-card {
+    border: 1px solid var(--color-prisma-border);
+    background: color-mix(in srgb, var(--color-prisma-elevated) 85%, transparent);
+    border-radius: 2px;
+  }
+
+  .prisma-tab {
+    @apply flex flex-1 items-center justify-center gap-1.5 py-2 text-[11px] font-semibold uppercase tracking-wider transition-colors;
+    color: var(--color-prisma-dim);
+    border-bottom: 2px solid transparent;
+  }
+  .prisma-tab:hover { color: var(--color-prisma-muted); background: var(--color-prisma-hover); }
+  .prisma-tab.on {
+    color: var(--color-prisma-fg);
+    border-bottom-color: var(--color-prisma-accent);
+    background: color-mix(in srgb, var(--color-prisma-accent) 6%, transparent);
+  }
+
+  .prisma-map-ctl {
+    @apply px-2 py-1 text-[10px] font-semibold uppercase tracking-wider backdrop-blur-sm transition-colors;
+    border-radius: 2px;
+    border: 1px solid var(--color-prisma-border);
+    background: color-mix(in srgb, var(--color-prisma-panel) 92%, transparent);
+    color: var(--color-prisma-muted);
+  }
+  .prisma-map-ctl.on {
+    border-color: color-mix(in srgb, var(--color-prisma-accent) 50%, transparent);
+    color: var(--color-prisma-fg);
+    background: color-mix(in srgb, var(--color-prisma-accent) 14%, var(--color-prisma-panel));
+  }
+}
+
+/* ---------- Leaflet · PRISMA chrome ---------- */
+/* OSM 반전 필터는 사용하지 않음 — 화질 저하. 위성은 살짝만 어둡게. */
+.tiles-imagery-dim {
+  filter: brightness(0.78) contrast(1.08) saturate(0.9);
+}
+.leaflet-tile-container img {
+  /* 업스케일 시 부드럽게 (블럭 깨짐 완화) */
+  image-rendering: auto;
+}
+.leaflet-container {
+  background: var(--color-prisma-void);
+  font-family: var(--font-sans);
+}
+.leaflet-control-layers,
+.leaflet-bar a,
+.leaflet-control-scale-line {
+  background: color-mix(in srgb, var(--color-prisma-panel) 94%, transparent) !important;
+  color: var(--color-prisma-muted) !important;
+  border-color: var(--color-prisma-border) !important;
+  border-radius: 2px !important;
+}
+.leaflet-bar a { width: 28px; height: 28px; line-height: 28px; }
+.leaflet-bar a:hover { background: var(--color-prisma-hover) !important; color: var(--color-prisma-fg) !important; }
+.leaflet-control-layers { font-size: 11px; }
+.leaflet-control-attribution {
+  background: color-mix(in srgb, var(--color-prisma-panel) 88%, transparent) !important;
+  color: var(--color-prisma-dim) !important;
+  font-size: 9px;
+  border-radius: 2px;
+}
+.leaflet-control-attribution a { color: var(--color-prisma-muted) !important; }
+.leaflet-tooltip {
+  background: color-mix(in srgb, var(--color-prisma-panel) 96%, transparent);
+  color: var(--color-prisma-fg);
+  border: 1px solid var(--color-prisma-border);
+  box-shadow: none;
+  border-radius: 2px;
+  font-size: 11px;
+}
+.leaflet-tooltip-top:before { border-top-color: var(--color-prisma-border); }
+.pl-label {
+  background: transparent; border: none;
+  color: var(--color-prisma-accent);
+  font-weight: 600; font-size: 10px; letter-spacing: 0.06em;
+  text-shadow: 0 1px 2px #000c;
+}
+.pl-label:before { display: none; }
+
+/* ---------- 군대부호 / 계급장 ---------- */
+.milsym { background: none; border: none; }
+.milsym svg { overflow: visible; }
+.milsym.st-wia svg { filter: drop-shadow(0 0 3px #f2b824); }
+.milsym.st-kia { opacity: 0.45; filter: grayscale(1); }
+.milsym.st-nolink { opacity: 0.4; filter: grayscale(0.8); animation: blink 1.4s infinite; }
+.milsym.sel svg { outline: 1px solid #2bb7c7; outline-offset: 2px; }
+.milsym.contact-tgt svg { filter: drop-shadow(0 0 5px #ff3b3b); }
+.leaflet-interactive.contact-pulse {
+  animation: contact-ring 1.2s ease-out infinite;
+}
+@keyframes contact-ring {
+  0% { stroke-opacity: 0.9; fill-opacity: 0.18; }
+  70% { stroke-opacity: 0.25; fill-opacity: 0.04; }
+  100% { stroke-opacity: 0.9; fill-opacity: 0.18; }
+}
+
+.rok-marker { background: none; border: none; }
+.rok-rank {
+  position: relative; display: flex; flex-direction: column; align-items: center;
+  filter: drop-shadow(0 1px 2px #000a);
+}
+.rok-rank .rk-badge { line-height: 0; }
+.rok-rank .rk-badge svg { display: block; }
+.rok-rank .rk-label {
+  margin-top: 1px; font-size: 10px; font-weight: 600; color: var(--color-prisma-fg);
+  font-family: var(--font-mono);
+  text-shadow: 0 1px 2px #000c; white-space: nowrap;
+}
+.rok-rank .rk-dir {
+  position: absolute; top: -6px; left: 50%; width: 0; height: 0;
+  margin-left: -4px; border-left: 4px solid transparent; border-right: 4px solid transparent;
+  border-bottom: 8px solid var(--color-prisma-ok); transform-origin: 50% 18px;
+}
+.rok-marker.st-wia .rok-rank { filter: drop-shadow(0 0 3px #f2b824); }
+.rok-marker.st-kia .rok-rank { opacity: 0.45; filter: grayscale(1); }
+.rok-marker.st-nolink .rok-rank { opacity: 0.4; filter: grayscale(0.8); animation: blink 1.4s infinite; }
+.rok-marker.sel .rok-rank, .rok-rank.sel {
+  outline: 1px solid var(--color-prisma-accent);
+  outline-offset: 2px;
+}
+.rank-glyph svg { display: block; }
+.rank-glyph.st-wia { filter: drop-shadow(0 0 2px #f2b824); }
+.rank-glyph.st-kia { opacity: 0.45; filter: grayscale(1); }
+.rank-glyph.st-nolink { opacity: 0.45; filter: grayscale(0.8); animation: blink 1.4s infinite; }
+@keyframes blink { 50% { opacity: 0.15; } }
+
+.objective { background: none; border: none; }
+.objective div {
+  border: 1px solid var(--color-prisma-accent); color: var(--color-prisma-accent);
+  font-weight: 700; font-size: 10px; letter-spacing: 0.08em; text-align: center;
+  border-radius: 2px; background: color-mix(in srgb, var(--color-prisma-panel) 90%, transparent);
+  line-height: 18px; font-family: var(--font-mono);
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-prisma-border);
+  border-radius: 2px;
+}
+
+/* ---------- 명령 지점 ---------- */
+.order-pt { background: none; border: none; }
+.order-pt .ring {
+  width: 16px; height: 16px; border-radius: 2px;
+  border: 1.5px solid var(--color-prisma-accent);
+  background: color-mix(in srgb, var(--color-prisma-accent) 22%, transparent);
+  transform: rotate(45deg);
+}
+.order-pt.pending .ring { border-style: dashed; animation: ping 1.2s infinite; }
+.order-pt span {
+  position: absolute; left: 20px; top: 0; white-space: nowrap;
+  font-size: 10px; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--color-prisma-accent);
+  font-family: var(--font-mono);
+  text-shadow: 0 1px 2px #000c;
+}
+.pick-mode, .pick-mode .leaflet-interactive { cursor: crosshair !important; }

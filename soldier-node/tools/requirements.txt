@@ -1,0 +1,4 @@
+# 노트북 도구 의존성. 설치는 사용자 승인 후:
+#   python3 -m pip install -r tools/requirements.txt
+# bleak 1.1.1: mock_leader.py가 쓰는 API(BleakScanner detection_callback, BleakClient.mtu_size, start_notify)를 확인한 버전
+bleak==1.1.1

@@ -1,0 +1,4 @@
+# UNO Q / 노트북에서 bridge_server.py 실행
+bleak>=1.1.1
+pyserial>=3.5
+# MCU Bridge(선택): App Lab arduino wheel (arduino.app_utils)

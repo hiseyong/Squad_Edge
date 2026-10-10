@@ -1,0 +1,1 @@
+# Vendored from soldier-node/tools — sync when protocol changes.
